@@ -1,6 +1,6 @@
 ---
 title: load与initialize
-date: 2016-04-24 23:31:30
+date: 2017-03-13 23:31:30
 description: load与initialize是Nsobject类实现初始化操作的两个方法
 categories:
 - 基础知识点

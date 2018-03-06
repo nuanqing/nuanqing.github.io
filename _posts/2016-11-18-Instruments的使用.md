@@ -1,6 +1,6 @@
 ---
 title: Instruments的使用
-date: 2016-04-24 23:31:30
+date: 2016-11-18 23:31:30
 description: Instruments是一个强大而灵活的性能分析和测试工具，它是Xcode开发工具集的一部分，它被设计用于帮助分析OS X和iOS的应用、进程与设备，以便更好的理解和优化它们的行为和表现。结合**Instruments**从你的app开发工作刚刚开始，可以节省你的时间，帮助你在开发周期的早期发现问题
 categories:
 - 调试相关
