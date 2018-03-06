@@ -1,419 +1,745 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T10:51:37+08:00</updated><id>http://localhost:4000/</id><title type="html">记录点滴</title><subtitle>Coding Life</subtitle><author><name>nuanqing</name></author><entry><title type="html">Next Theme Tutorial</title><link href="http://localhost:4000/tutorial/2017/07/20/next-tutorial/" rel="alternate" type="text/html" title="Next Theme Tutorial" /><published>2017-07-20T00:00:00+08:00</published><updated>2017-07-20T00:00:00+08:00</updated><id>http://localhost:4000/tutorial/2017/07/20/next-tutorial</id><content type="html" xml:base="http://localhost:4000/tutorial/2017/07/20/next-tutorial/">&lt;blockquote&gt;
-  &lt;p&gt;NexT is a high quality elegant &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme ported from &lt;a href=&quot;https://github.com/iissnan/hexo-theme-next&quot;&gt;Hexo Next&lt;/a&gt;. It is crafted from scratch, with love.&lt;/p&gt;
-&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-06T15:41:35+08:00</updated><id>http://localhost:4000/</id><title type="html">记录点滴</title><subtitle>Coding Life</subtitle><author><name>nuanqing</name></author><entry><title type="html">快捷键实用小技巧</title><link href="http://localhost:4000/%E5%BF%AB%E6%8D%B7%E9%94%AE/2016/04/24/%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%AE%9E%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/" rel="alternate" type="text/html" title="快捷键实用小技巧" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%BF%AB%E6%8D%B7%E9%94%AE/2016/04/24/%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%AE%9E%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7</id><content type="html" xml:base="http://localhost:4000/%E5%BF%AB%E6%8D%B7%E9%94%AE/2016/04/24/%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%AE%9E%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/">&lt;h2 id=&quot;xcode常用快捷键&quot;&gt;Xcode常用快捷键&lt;/h2&gt;
 
-&lt;!-- more --&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command+0&lt;/code&gt; 显示/隐藏导航器面板&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://simpleyyt.github.io/jekyll-theme-next/&quot;&gt;Live Preview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command+Option+0&lt;/code&gt; 显示/隐藏实用工具面板&lt;/p&gt;
 
-&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Control+6&lt;/code&gt;（键入方法/变量名+&lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;跳转）文件跳转栏&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command + Shift + o&lt;/code&gt; 快速查找&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Control + Command + Up Arrow .h and .m&lt;/code&gt; 文件间的快速切换&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command + Shift + K&lt;/code&gt; 清除工程&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command + Shift + 0&lt;/code&gt; 文档和参考&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + ~&lt;/code&gt; 文件切换&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + option + ←或→&lt;/code&gt;   方法显示与隐藏&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + [&lt;/code&gt; 缩进&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + shift + N&lt;/code&gt; 创建工程&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + N&lt;/code&gt; 创建文件&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + S&lt;/code&gt; 保存&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + W&lt;/code&gt; 关闭&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command + Q&lt;/code&gt; 退出Xcode&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;option ＋ command ＋ ／&lt;/code&gt; 注释方法(方法添加注释)&lt;/p&gt;
+
+&lt;p&gt;百度到Xcode8注释快捷键的失效解决方法
+命令运行：&lt;/p&gt;
+
+&lt;p&gt;sudo /usr/libexec/xpccachectl&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;  进入某个文件夹&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; 返回上一级文件夹&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ~&lt;/code&gt; 跳到根目录下&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;  查看当前文件夹下目录&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; 创建一个文件夹&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt; 删除一个文件&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf&lt;/code&gt; 强制删除一个文件或目录&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vi xxx.c&lt;/code&gt;  创建一个可编辑的点C文件&lt;/p&gt;
+
+&lt;h2 id=&quot;vi下得命令&quot;&gt;VI下得命令&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;   进入可编辑模式&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;esc&lt;/code&gt;（退出键）退出编辑模式&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt;  是保存写入的代码并退出&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;q!&lt;/code&gt;   强制退出当前文件&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;yy &lt;/code&gt;  复制当前行&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dd&lt;/code&gt;   删除当前行&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;    在当前光标下拷贝   粘贴版数据&lt;/p&gt;
+
+&lt;h3 id=&quot;创建txt文件&quot;&gt;创建TXT文件&lt;/h3&gt;
+
+&lt;p&gt;输入指令&lt;code class=&quot;highlighter-rouge&quot;&gt;vim 文件名.txt i&lt;/code&gt; 在当前位置生前插入&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt; 在当前行首插入&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; 在当前位置后插入&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; 在当前行尾插入&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; 在当前行之后插入一行&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;O&lt;/code&gt; 在当前行之前插入一行&lt;/p&gt;
+
+&lt;p&gt;当我们输入完结的时候，我们先要按一下&lt;code class=&quot;highlighter-rouge&quot;&gt;esc&lt;/code&gt;键，再一次输入&lt;code class=&quot;highlighter-rouge&quot;&gt;：wq&lt;/code&gt;，意思就是保存退出&lt;/p&gt;
+
+&lt;p&gt;我们可以回到桌面上看一下，有没有我们的文档，如果没有
+我们可以在终端上输入&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;查看一下文件，利用  &lt;code class=&quot;highlighter-rouge&quot;&gt;mv 文件名.txt to Desktop&lt;/code&gt; 指令，将文件发送到桌面上&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="快捷键" /><summary type="html">Xcode常用快捷键</summary></entry><entry><title type="html">常见的加密方式总结</title><link href="http://localhost:4000/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/" rel="alternate" type="text/html" title="常见的加密方式总结" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93</id><content type="html" xml:base="http://localhost:4000/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/">&lt;h2 id=&quot;base64&quot;&gt;Base64&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Base64&lt;/strong&gt;作为密码学的基础，是网络上最常见的用于传输8Bit字节码的编码方式之一&lt;/p&gt;
+
+&lt;p&gt;基本原理:原本是 8个bit 一组表示数据,改为 6个bit一组表示数据,不足的部分补零,每 两个0 用 一个 = 表示&lt;/p&gt;
+
+&lt;p&gt;特点：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Desktop
-&lt;img src=&quot;http://iissnan.com/nexus/next/desktop-preview.png&quot; alt=&quot;Desktop Preview&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sidebar&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;具有不可读性，需要解码后才能阅读&lt;/li&gt;
+  &lt;li&gt;没有密钥的概念，可以轻松破解&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://iissnan.com/nexus/next/desktop-sidebar-preview.png&quot; alt=&quot;Desktop Sidebar Preview&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;应用：http请求中数据的转码，可以作为后台密码的保存&lt;/p&gt;
 
+&lt;h2 id=&quot;md5&quot;&gt;MD5&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MD5&lt;/strong&gt;（&lt;strong&gt;Message Digest Algorithm 中文名为消息摘要算法第五版&lt;/strong&gt;）严格来说并不算是加密的方式，因为&lt;strong&gt;MD5&lt;/strong&gt;具有不可逆性，所以不能解密（简单的可以破解）,它属于哈希算法，哈希，也叫做散列、数据摘要，是一类基础而又实用的算法，哈希函数的作用就是把某一类不定长的对象映射为另一类固定长度的对象。而&lt;strong&gt;MD5&lt;/strong&gt;能够把一个任意长度的字节串变换成一定长度的十六进制的大整数&lt;/p&gt;
+
+&lt;p&gt;特点：&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Sidebar (Post details page)&lt;/li&gt;
+  &lt;li&gt;压缩性 : 任意长度的数据,算出的 &lt;strong&gt;MD5&lt;/strong&gt;  值长度都是固定的.&lt;/li&gt;
+  &lt;li&gt;容易计算 : 从原数据计算出 &lt;strong&gt;MD5&lt;/strong&gt; 值很容易.&lt;/li&gt;
+  &lt;li&gt;抗修改性 : 对原数据进行任何改动,哪怕只修改一个字节,所得到的 &lt;strong&gt;MD5&lt;/strong&gt; 值都有很大区别.&lt;/li&gt;
+  &lt;li&gt;弱抗碰撞 : 已知原数据和其 &lt;strong&gt;MD5&lt;/strong&gt; 值,想找到一个具有相同 &lt;strong&gt;MD5&lt;/strong&gt; 值的数据(即伪造数据)是非常困难的.&lt;/li&gt;
+  &lt;li&gt;强抗碰撞: 想找到两个不同数据,使他们具有相同的 &lt;strong&gt;MD5&lt;/strong&gt; 值,是非常困难的
+应用：文件的校验，数字签名，安全访问认证&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://iissnan.com/nexus/next/desktop-sidebar-toc.png&quot; alt=&quot;Desktop Sidebar Preview&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;aes&quot;&gt;AES&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;AES,高级加密标准（英语：Advanced Encryption Standard，缩写：AES）&lt;/strong&gt;，在密码学中又称&lt;strong&gt;Rijndael&lt;/strong&gt;加密法，是美国联邦政府采用的一种区块加密标准。这个标准用来替代原先的&lt;strong&gt;DES&lt;/strong&gt;，已经被多方分析且广为全世界所使用&lt;/p&gt;
 
+&lt;p&gt;属于对称加密算法&lt;/p&gt;
+
+&lt;p&gt;特点：&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Mobile&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AES&lt;/strong&gt;加密数据块分组长度必须为128比特，密钥长度可以是128比特、192比特、256比特中的任意一个&lt;/li&gt;
+  &lt;li&gt;私钥与公钥相同&lt;/li&gt;
+  &lt;li&gt;强安全性&lt;/li&gt;
+  &lt;li&gt;高性能、高效率、易用和灵活
+应用：密码加密，http数据的传输&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://iissnan.com/nexus/next/mobile.png&quot; alt=&quot;Mobile Preview&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;rsa&quot;&gt;RSA&lt;/h2&gt;
 
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RSA&lt;/strong&gt;公钥加密算法，是目前最有影响力和最常用的公钥加密算法，它能够抵抗到目前为止已知的绝大多数密码攻击，目前为止只有短的&lt;strong&gt;RSA&lt;/strong&gt;钥匙才可能被强力方式解破，是菲对称加密算法&lt;/p&gt;
 
-&lt;p&gt;Check whether you have &lt;code class=&quot;highlighter-rouge&quot;&gt;Ruby 2.1.0&lt;/code&gt; or higher installed:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RSA&lt;/strong&gt;算法基于一个十分简单的数论事实：将两个大质数相乘十分容易，但是想要对其乘积进行因式分解却极其困难，因此可以将乘积公开作为加密密钥,
+对于加密原理可以&lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html&quot;&gt;点击这里&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby --version
+&lt;p&gt;特点：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;对于一个私钥，有且只有一个与之对应的公钥。生成者负责生成私钥和公钥，并保存私钥，公开公钥&lt;/li&gt;
+  &lt;li&gt;强安全性，公钥是公开的，但不可能通过公钥反推出私钥，或者说极难反推，只能穷举，所以只要密钥足够长度，要通过穷举而得到私钥，几乎是不可能的&lt;/li&gt;
+  &lt;li&gt;通过私钥加密的密文只能通过公钥解密，公钥加密的密文只有通过私钥解密
+应用：密码加密，http数据的传输&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>nuanqing</name></author><category term="加密总结" /><summary type="html">Base64 Base64作为密码学的基础，是网络上最常见的用于传输8Bit字节码的编码方式之一</summary></entry><entry><title type="html">崩溃日志分析</title><link href="http://localhost:4000/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90/" rel="alternate" type="text/html" title="崩溃日志分析" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90</id><content type="html" xml:base="http://localhost:4000/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90/">&lt;p&gt;在开发过程中我们可以通过调试来查找修复BUG，APP上线之后或者APP不是安装在自己的真机上的时候我们就需要通过崩溃日志分析工具&lt;em&gt;symbolicatecrash&lt;/em&gt;进行分析&lt;/p&gt;
+
+&lt;h2 id=&quot;什么是symbolicatecrash&quot;&gt;什么是symbolicatecrash？&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;symbolicatecrash&lt;/em&gt;是Xcode自带的一个分析工具，可以通过机器上的崩溃日志和应用的.dSYM文件定位发生崩溃的位置，把crash日志中的一堆地址替换成代码相应位置&lt;/p&gt;
+
+&lt;p&gt;我们可以通过命令符找到&lt;em&gt;symbolicatecrash&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find /Applications/Xcode.app -name   symbolicatecrash -type f
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;将crash信息同步到我们MAC中&lt;/p&gt;
 
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
+&lt;p&gt;如果是其他用户并且是APP Store下的APP
+需要用户在’如何查看iphone上的崩溃日志’中，将《自动发送》开启，打开《与应用开发者共享》，这样用户的APP崩溃后，会提示发送崩溃日志到开发者，开发者就可以在iTunes Connect中下载这些崩溃日志。&lt;/p&gt;
+
+&lt;p&gt;如果是手中的真机
+直接将iphone连接到iTunes,打开xcode-&amp;gt;window-&amp;gt;devices，导出你需要的崩溃日志即可&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bkfx1.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;分析崩溃日志&quot;&gt;分析崩溃日志&lt;/h2&gt;
+&lt;h3 id=&quot;第一步&quot;&gt;第一步&lt;/h3&gt;
+&lt;p&gt;我们需要找到.app文件和.app.dSYM文件，在桌面创建一个crash文件夹，然后Xcode-&amp;gt;Window-&amp;gt;Organizer找到Archives找到App－&amp;gt;右击Show in Finder
+复制.app和.app.dSYM到crash夹文件：右击.xcarchive文件-&amp;gt;显示包内容 在dSYMs文件夹中找到.app.dSYM 在Products-&amp;gt;Applications文件夹中找到*.app&lt;/p&gt;
+&lt;h3 id=&quot;第二步&quot;&gt;第二步&lt;/h3&gt;
+&lt;p&gt;将&lt;em&gt;symbolicatecrash&lt;/em&gt;拷贝到桌面的crash文件夹里面，与.app和.app.dSYM放一起&lt;/p&gt;
+&lt;h3 id=&quot;第三步&quot;&gt;第三步&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /Users/你的电脑名称/Desktop/cras
+
+export DEVELOPER_DIR=/Applications/XCode.app/Contents/Developer ./symbolicatecrash ./*.crash ./*.app.dSYM &amp;gt; symbol.crash
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Clone Jacman theme:&lt;/p&gt;
+&lt;p&gt;将终端完成以后，在crash文件夹里面会多出一个文件Control_symbol.crash：这个就是最终的文件，可以查看bug所在的位置，如图:&lt;/p&gt;
 
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/Simpleyyt/jekyll-theme-next.git
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;jekyll-theme-next
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Install Jekyll and other dependencies from the GitHub Pages gem:&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Run your Jekyll site locally:&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;More Details：&lt;a href=&quot;https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/&quot;&gt;Setting up your GitHub Pages site locally with Jekyll&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-
-&lt;h3 id=&quot;multiple-languages-support-including-english--russian--french--german--simplified-chinese--traditional-chinese&quot;&gt;Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese.&lt;/h3&gt;
-
-&lt;p&gt;Default language is English.&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;en&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# language: zh-Hans&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# language: fr-FR&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# language: zh-hk&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# language: zh-tw&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# language: ru&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# language: de&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;language&lt;/code&gt; field as following in site &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to change to Chinese.&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;zh-Hans&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;comment-support&quot;&gt;Comment support.&lt;/h3&gt;
-
-&lt;p&gt;NexT has native support for &lt;code class=&quot;highlighter-rouge&quot;&gt;DuoShuo&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Disqus&lt;/code&gt; comment systems.&lt;/p&gt;
-
-&lt;p&gt;Add the following snippets to your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;duoshuo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-duoshuo-shortname&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;OR&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;disqus_shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-disqus-shortname&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;social-media&quot;&gt;Social Media&lt;/h3&gt;
-
-&lt;p&gt;NexT can automatically add links to your Social Media accounts:&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;social&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;GitHub&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-github-url&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;Twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-twitter-url&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;Weibo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-weibo-url&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;DouBan&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-douban-url&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;ZhiHu&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-zhihu-url&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;feed-link&quot;&gt;Feed link.&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Show a feed link.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;rss&lt;/code&gt; field in theme’s &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, as the following value:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/bkfx2.jpg&quot; alt=&quot;png2&quot; /&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="调试" /><summary type="html">在开发过程中我们可以通过调试来查找修复BUG，APP上线之后或者APP不是安装在自己的真机上的时候我们就需要通过崩溃日志分析工具symbolicatecrash进行分析</summary></entry><entry><title type="html">关于编程思想自己的一点总结</title><link href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/" rel="alternate" type="text/html" title="关于编程思想自己的一点总结" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3</id><content type="html" xml:base="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/">&lt;p&gt;iOS 中常见的五种编程模式：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rss: false&lt;/code&gt; will totally disable feed link.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rss:  &lt;/code&gt; use sites’ feed link. This is the default option.&lt;/p&gt;
-
-    &lt;p&gt;Follow the installation instruction in the plugin’s README. After the configuration is done for this plugin, the feed link is ready too.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;链式编程&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rss: http://your-feed-url&lt;/code&gt; set specific feed link.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;函数式编程（Functional Programming FP）&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;面向对象编程(Object Oriented Programming OOP)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;面向切面编程(Aspect Oriented Programming AOP)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;响应式编程(Reactive Programming RP)&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;up-to-5-code-highlight-themes-built-in&quot;&gt;Up to 5 code highlight themes built-in.&lt;/h3&gt;
+&lt;h2 id=&quot;面向对象编程&quot;&gt;面向对象编程&lt;/h2&gt;
 
-&lt;p&gt;NexT uses &lt;a href=&quot;https://github.com/chriskempson/tomorrow-theme&quot;&gt;Tomorrow Theme&lt;/a&gt; with 5 themes for you to choose from.
-Next use &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; by default. Have a preview about &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;night&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://iissnan.com/nexus/next/tomorrow-normal.png&quot; alt=&quot;Tomorrow Normal Preview&quot; /&gt;
-&lt;img src=&quot;http://iissnan.com/nexus/next/tomorrow-night.png&quot; alt=&quot;Tomorrow Night Preview&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Head over to &lt;a href=&quot;https://github.com/chriskempson/tomorrow-theme&quot;&gt;Tomorrow Theme&lt;/a&gt; for more details.&lt;/p&gt;
-
-&lt;h2 id=&quot;configuration&quot;&gt;Configuration&lt;/h2&gt;
-
-&lt;p&gt;NexT comes with few configurations.&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;c1&quot;&gt;# Menu configuration.&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;menu&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;home&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;archives&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/archives&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Favicon&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;favicon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/favicon.ico&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Avatar (put the image into next/source/images/)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/default_avatar.png&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Code highlight theme&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# available: normal | night | night eighties | night blue | night bright&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;highlight_theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;normal&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Fancybox for image gallery&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;fancybox&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Specify the date when the site was setup&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;since&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2013&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;browser-support&quot;&gt;Browser support&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://iissnan.com/nexus/next/browser-support.png&quot; alt=&quot;Browser support&quot; /&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><summary type="html">NexT is a high quality elegant Jekyll theme ported from Hexo Next. It is crafted from scratch, with love. Live Preview Screenshots Desktop Sidebar Sidebar (Post details page) Mobile Installation Check whether you have Ruby 2.1.0 or higher installed: ruby --version Install Bundler: gem install bundler Clone Jacman theme: git clone https://github.com/Simpleyyt/jekyll-theme-next.git cd jekyll-theme-next Install Jekyll and other dependencies from the GitHub Pages gem: bundle install Run your Jekyll site locally: bundle exec jekyll server More Details：Setting up your GitHub Pages site locally with Jekyll Features Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese. Default language is English. language: en # language: zh-Hans # language: fr-FR # language: zh-hk # language: zh-tw # language: ru # language: de Set language field as following in site _config.yml to change to Chinese. language: zh-Hans Comment support. NexT has native support for DuoShuo and Disqus comment systems. Add the following snippets to your _config.yml: duoshuo: enable: true shortname: your-duoshuo-shortname OR disqus_shortname: your-disqus-shortname Social Media NexT can automatically add links to your Social Media accounts: social: GitHub: your-github-url Twitter: your-twitter-url Weibo: your-weibo-url DouBan: your-douban-url ZhiHu: your-zhihu-url Feed link. Show a feed link. Set rss field in theme’s _config.yml, as the following value: rss: false will totally disable feed link. rss: use sites’ feed link. This is the default option. Follow the installation instruction in the plugin’s README. After the configuration is done for this plugin, the feed link is ready too. rss: http://your-feed-url set specific feed link. Up to 5 code highlight themes built-in. NexT uses Tomorrow Theme with 5 themes for you to choose from. Next use normal by default. Have a preview about normal and night: Head over to Tomorrow Theme for more details. Configuration NexT comes with few configurations. # Menu configuration. menu: home: / archives: /archives # Favicon favicon: /favicon.ico # Avatar (put the image into next/source/images/) # can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..) avatar: /default_avatar.png # Code highlight theme # available: normal | night | night eighties | night blue | night bright highlight_theme: normal # Fancybox for image gallery fancybox: true # Specify the date when the site was setup since: 2013 Browser support</summary></entry><entry><title type="html">Highlight Test</title><link href="http://localhost:4000/test/2017/07/19/highlight-test/" rel="alternate" type="text/html" title="Highlight Test" /><published>2017-07-19T00:00:00+08:00</published><updated>2017-07-19T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/07/19/highlight-test</id><content type="html" xml:base="http://localhost:4000/test/2017/07/19/highlight-test/">&lt;p&gt;This is a highlight test.&lt;/p&gt;
-
-&lt;h1 id=&quot;normal-block&quot;&gt;Normal block&lt;/h1&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alert('Hello World!');
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print 'helloworld'
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;highlight-block&quot;&gt;Highlight block&lt;/h1&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Hello, world!'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'helloworld'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;language-c++ highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>nuanqing</name></author><summary type="html">This is a highlight test. Normal block alert('Hello World!'); print 'helloworld' Highlight block alert( 'Hello, world!' ); print 'helloworld' def foo puts 'foo' end def foo puts 'foo' end 1 2 3def foo puts 'foo' end #include &amp;lt;iostream&amp;gt; using namespace std; void foo(int arg1, int arg2) { } int main() { string str; foo(1, 2); cout &amp;lt;&amp;lt; &quot;Hello World&quot; &amp;lt;&amp;lt; endl; return 0; }</summary></entry><entry><title type="html">Emoji Test</title><link href="http://localhost:4000/2015/09/19/emoji-test/" rel="alternate" type="text/html" title="Emoji Test" /><published>2015-09-19T00:00:00+08:00</published><updated>2015-09-19T00:00:00+08:00</updated><id>http://localhost:4000/2015/09/19/emoji-test</id><content type="html" xml:base="http://localhost:4000/2015/09/19/emoji-test/">&lt;p&gt;This is an emoji test. :smile: lol.&lt;/p&gt;
-
-&lt;p&gt;See emoji cheat sheet for more detail :wink: : &lt;a href=&quot;https://www.webpagefx.com/tools/emoji-cheat-sheet/&quot;&gt;https://www.webpagefx.com/tools/emoji-cheat-sheet/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;:bowtie::smile::laughing::blush::smiley::relaxed::smirk:
-:heart_eyes::kissing_heart::kissing_closed_eyes::flushed::relieved::satisfied::grin:&lt;/p&gt;</content><author><name>nuanqing</name></author><summary type="html">This is an emoji test. :smile: lol.</summary></entry><entry><title type="html">Gallery Post</title><link href="http://localhost:4000/photo/2014/11/18/gallery-post/" rel="alternate" type="text/html" title="Gallery Post" /><published>2014-11-18T23:45:20+08:00</published><updated>2014-11-18T23:45:20+08:00</updated><id>http://localhost:4000/photo/2014/11/18/gallery-post</id><content type="html" xml:base="http://localhost:4000/photo/2014/11/18/gallery-post/">&lt;p&gt;Nunc dignissim volutpat enim, non sollicitudin purus dignissim id. Nam sit amet urna eu velit lacinia eleifend. Proin auctor rhoncus ligula nec aliquet. Donec sodales molestie lacinia. Curabitur dictum faucibus urna at convallis. Aliquam in lectus at urna rutrum porta. In lacus arcu, molestie ut vestibulum ut, rhoncus sed eros. Sed et elit vitae risus pretium consectetur vel in mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus turpis quis lectus rhoncus adipiscing. Proin pulvinar placerat suscipit. Maecenas imperdiet, quam vitae varius auctor, enim mauris vulputate sapien, nec laoreet neque diam non quam.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/81b78497jw1emfgts2pt4j21hc0u0k1c.jpg&quot; alt=&quot;Wallbase - dgnfly (wallbase.cc/wallpaper/1384450)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Etiam luctus mauris at mi sollicitudin quis malesuada nibh porttitor. Vestibulum non dapibus magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin feugiat hendrerit viverra. Phasellus sit amet nunc mauris, eu ultricies tellus. Sed a mi tortor, eleifend varius erat. Proin consectetur molestie tortor eu gravida. Cras placerat orci id arcu tristique ut rutrum justo pulvinar. Maecenas lacinia fringilla diam non bibendum. Aenean vel viverra turpis. Integer ut leo nisi. Pellentesque vehicula quam ut sapien convallis consequat. Aliquam ut arcu purus, eget tempor purus. Integer eu tellus quis erat tristique gravida eu vel lorem.&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="Photo" /><category term="consectetur" /><summary type="html">Nunc dignissim volutpat enim, non sollicitudin purus dignissim id. Nam sit amet urna eu velit lacinia eleifend. Proin auctor rhoncus ligula nec aliquet. Donec sodales molestie lacinia. Curabitur dictum faucibus urna at convallis. Aliquam in lectus at urna rutrum porta. In lacus arcu, molestie ut vestibulum ut, rhoncus sed eros. Sed et elit vitae risus pretium consectetur vel in mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus turpis quis lectus rhoncus adipiscing. Proin pulvinar placerat suscipit. Maecenas imperdiet, quam vitae varius auctor, enim mauris vulputate sapien, nec laoreet neque diam non quam.</summary></entry><entry><title type="html">MathJax with Jekyll</title><link href="http://localhost:4000/opinion/2014/02/16/Mathjax-with-jekyll/" rel="alternate" type="text/html" title="MathJax with Jekyll" /><published>2014-02-16T00:00:00+08:00</published><updated>2014-02-16T00:00:00+08:00</updated><id>http://localhost:4000/opinion/2014/02/16/Mathjax-with-jekyll</id><content type="html" xml:base="http://localhost:4000/opinion/2014/02/16/Mathjax-with-jekyll/">&lt;p&gt;One of the rewards of switching my website to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is the
-ability to support &lt;strong&gt;MathJax&lt;/strong&gt;, which means I can write LaTeX-like equations that get
-nicely displayed in a web browser, like this one \( \sqrt{\frac{n!}{k!(n-k)!}} \) or
-this one \( x^2 + y^2 = r^2 \).&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;img class=&quot;centered&quot; src=&quot;https://www.mathjax.org/badge/mj-logo.svg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;whats-mathjax&quot;&gt;What’s MathJax?&lt;/h3&gt;
-
-&lt;p&gt;If you check MathJax website &lt;a href=&quot;http://www.mathjax.org/&quot;&gt;(www.mathjax.org)&lt;/a&gt; you’ll see
-that it &lt;em&gt;is an open source JavaScript display engine for mathematics that works in all
-browsers&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-to-implement-mathjax-with-jekyll&quot;&gt;How to implement MathJax with Jekyll&lt;/h3&gt;
-
-&lt;p&gt;I followed the instructions described by Dason Kurkiewicz for
-&lt;a href=&quot;http://dasonk.github.io/blog/2012/10/09/Using-Jekyll-and-Mathjax/&quot;&gt;using Jekyll and Mathjax&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here are some important details. I had to modify the Ruby library for Markdown in
-my &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file. Now I’m using redcarpet so the corresponding line in the
-configuration file is: &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown: redcarpet&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To load the MathJax javascript, I added the following lines in my layout &lt;code class=&quot;highlighter-rouge&quot;&gt;page.html&lt;/code&gt;
-(located in my folder &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;)&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Of course you can choose a different file location in your jekyll layouts.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-couple-of-examples&quot;&gt;A Couple of Examples&lt;/h3&gt;
-
-&lt;p&gt;Here’s a short list of examples. To know more about the details behind MathJax, you can
-always checked the provided documentation available at
-&lt;a href=&quot;http://docs.mathjax.org/en/latest/&quot;&gt;http://docs.mathjax.org/en/latest/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m assuming you are familiar with LaTeX. However, you should know that MathJax does not
-have the exactly same behavior as LaTeX. By default, the &lt;strong&gt;tex2jax&lt;/strong&gt; preprocessor defines the
-LaTeX math delimiters, which are &lt;code class=&quot;highlighter-rouge&quot;&gt;\\(...\\)&lt;/code&gt; for in-line math, and &lt;code class=&quot;highlighter-rouge&quot;&gt;\\[...\\]&lt;/code&gt; for
-displayed equations. It also defines the TeX delimiters &lt;code class=&quot;highlighter-rouge&quot;&gt;$$...$$&lt;/code&gt; for displayed
-equations, but it does not define &lt;code class=&quot;highlighter-rouge&quot;&gt;$...$&lt;/code&gt; as in-line math delimiters. Fortunately,
-you can change these predefined specifications if you want to do so.&lt;/p&gt;
-
-&lt;p&gt;Let’s try a first example. Here’s a dummy equation:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
-
-&lt;p&gt;How do you write such expression? Very simple: using &lt;strong&gt;double dollar&lt;/strong&gt; signs&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;o&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;To display inline math use &lt;code class=&quot;highlighter-rouge&quot;&gt;\\( ... \\)&lt;/code&gt; like this &lt;code class=&quot;highlighter-rouge&quot;&gt;\\( sin(x^2) \\)&lt;/code&gt; which gets
-rendered as \( sin(x^2) \)&lt;/p&gt;
-
-&lt;p&gt;Here’s another example using type &lt;code class=&quot;highlighter-rouge&quot;&gt;\mathsf&lt;/code&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;o&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathsf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PCs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathsf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Loadings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;which gets displayed as&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathsf{Data = PCs} \times \mathsf{Loadings}&lt;/script&gt;
-
-&lt;p&gt;Or even better:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;err&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;P&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathsf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;is displayed as&lt;/p&gt;
-
-&lt;p&gt;\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \]&lt;/p&gt;
-
-&lt;p&gt;If you want to use subscripts like this \( \mathbf{X}_{n,p} \) you need to scape the
-underscores with a backslash like so &lt;code class=&quot;highlighter-rouge&quot;&gt;\mathbf{X}\_{n,p}&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;o&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;will be displayed as&lt;/p&gt;
-
-&lt;p&gt;\[ \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p} \]&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="resources" /><category term="jekyll" /><summary type="html">One of the rewards of switching my website to Jekyll is the ability to support MathJax, which means I can write LaTeX-like equations that get nicely displayed in a web browser, like this one \( \sqrt{\frac{n!}{k!(n-k)!}} \) or this one \( x^2 + y^2 = r^2 \).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://gastonsanchez.com/images/blog/mathjax_logo.png" /></entry><entry><title type="html">Images</title><link href="http://localhost:4000/2013/12/26/images/" rel="alternate" type="text/html" title="Images" /><published>2013-12-27T06:46:49+08:00</published><updated>2013-12-27T06:46:49+08:00</updated><id>http://localhost:4000/2013/12/26/images</id><content type="html" xml:base="http://localhost:4000/2013/12/26/images/">&lt;p&gt;This is a image test post.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/81b78497jw1emfgwjrh2pj21hc0u01g3.jpg&quot; alt=&quot;Caption&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/81b78497jw1emfgwil5xkj21hc0u0tpm.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://placehold.it/350x150.jpg&quot; alt=&quot;Small Picture&quot; /&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><summary type="html">This is a image test post.</summary></entry><entry><title type="html">Excerpts</title><link href="http://localhost:4000/2013/12/25/excerpts/" rel="alternate" type="text/html" title="Excerpts" /><published>2013-12-25T08:23:23+08:00</published><updated>2013-12-25T08:23:23+08:00</updated><id>http://localhost:4000/2013/12/25/excerpts</id><content type="html" xml:base="http://localhost:4000/2013/12/25/excerpts/">&lt;p&gt;The following contents should be invisible in home/archive page.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.&lt;/p&gt;
-
-&lt;p&gt;Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.&lt;/p&gt;</content><author><name>nuanqing</name></author><summary type="html">The following contents should be invisible in home/archive page.</summary></entry><entry><title type="html">Block</title><link href="http://localhost:4000/foo/2013/12/25/block/" rel="alternate" type="text/html" title="Block" /><published>2013-12-25T08:14:39+08:00</published><updated>2013-12-25T08:14:39+08:00</updated><id>http://localhost:4000/foo/2013/12/25/block</id><content type="html" xml:base="http://localhost:4000/foo/2013/12/25/block/">&lt;p&gt;This post is used for testing tag plugins. See &lt;a href=&quot;http://zespia.tw/hexo/docs/tag-plugins.html&quot;&gt;docs&lt;/a&gt; for more info.&lt;/p&gt;
-
-&lt;h2 id=&quot;block-quote&quot;&gt;Block Quote&lt;/h2&gt;
-
-&lt;h3 id=&quot;normal-blockquote&quot;&gt;Normal blockquote&lt;/h3&gt;
+&lt;p&gt;相对于面向过程编程，世间万物皆“对象”，特点是&lt;strong&gt;继承&lt;/strong&gt;，&lt;strong&gt;多态&lt;/strong&gt;与&lt;strong&gt;封装&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.&lt;/p&gt;
+  &lt;p&gt;其中多态是允许你将父对象设置成为一个或更多的他的子对象相等的技术，赋值之后，父对象就可以根据当前赋值给它的子对象的特性以不同的方式运作(允许将子类类型的指针赋值给父类类型的指针)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;code-block&quot;&gt;Code Block&lt;/h2&gt;
+&lt;p&gt;这在OC中都可实现，所以OC是面向对象的语言，
+而在OC中只支持单一继承，若要实现多继承，需要使用代理模式。&lt;/p&gt;
 
-&lt;h3 id=&quot;inline-code-block&quot;&gt;Inline code block&lt;/h3&gt;
-
-&lt;p&gt;This is a inline code block: &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;print 'helloworld'&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;normal-code-block&quot;&gt;Normal code block&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alert('Hello World!');
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print &quot;Hello world&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;highlight-code-block&quot;&gt;Highlight code block&lt;/h3&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello world&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;gist&quot;&gt;Gist&lt;/h3&gt;
-
-&lt;script src=&quot;https://gist.github.com/996818.js&quot;&gt; &lt;/script&gt;</content><author><name>nuanqing</name></author><summary type="html">This post is used for testing tag plugins. See docs for more info.</summary></entry><entry><title type="html">日本語テスト</title><link href="http://localhost:4000/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/" rel="alternate" type="text/html" title="日本語テスト" /><published>2013-12-25T07:33:26+08:00</published><updated>2013-12-25T07:33:26+08:00</updated><id>http://localhost:4000/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88</id><content type="html" xml:base="http://localhost:4000/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/">&lt;p&gt;This is a Japanese test post.&lt;/p&gt;
-
-&lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。&lt;/p&gt;
-
-&lt;p&gt;最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。&lt;/p&gt;
-
-&lt;p&gt;がたを知っないはずも同時に九月をいよいよたありた。&lt;/p&gt;
-
-&lt;p&gt;もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。&lt;/p&gt;
+&lt;h2 id=&quot;面向切面编程&quot;&gt;面向切面编程&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p&gt;
+  &lt;p&gt;面向切面编程是对面向对象的补充，就是在运行时动态的将代码切入到类的指定方法、指定位置上的编程方式（在不改变原有类的结构，来动态的为类添加代码片段）&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p&gt;
+&lt;p&gt;而OC作为动态语言，在运行时才会查找所需要的执行方法。声明通过不会报错，比如未初始化变量，未分配内存，不会报错。编译会通过，当运行时，调用变量的方法，会崩溃（这也说明了OC在运行期才检查对象的内存管理情况）&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;From &lt;a href=&quot;http://lipsum.sugutsukaeru.jp/index.cgi&quot;&gt;すぐ使えるダミーテキスト - 日本語 Lorem ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><summary type="html">This is a Japanese test post.</summary></entry><entry><title type="html">中文測試</title><link href="http://localhost:4000/test/test/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/" rel="alternate" type="text/html" title="中文測試" /><published>2013-12-25T07:31:30+08:00</published><updated>2013-12-25T07:31:30+08:00</updated><id>http://localhost:4000/test/test/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6</id><content type="html" xml:base="http://localhost:4000/test/test/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/">&lt;p&gt;This is a Chinese test post.&lt;/p&gt;
+&lt;p&gt;所以我们可以利用OC中的&lt;strong&gt;Runtime&lt;/strong&gt;的方法交换来实现&lt;strong&gt;AOP&lt;/strong&gt;编程(关联对象与&lt;strong&gt;Method Swizzing&lt;/strong&gt;)&lt;/p&gt;
 
-&lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
-
-&lt;p&gt;以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？&lt;/p&gt;
-
-&lt;p&gt;就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。&lt;/p&gt;
-
-&lt;p&gt;國新故。&lt;/p&gt;
+&lt;h2 id=&quot;链式编程&quot;&gt;链式编程&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？&lt;/p&gt;
+  &lt;p&gt;链式编程将多个方法用点语法链接起来,让代码更加简洁, 可读性更强。原理是调用者的属性或者方法反回的是对象本身。这也是第三方库Masonry使用的编程方式（对象的方法或者属性返回值是Block，而Block的返回值是对象本身，这样就可以通过点语法无限调用函数）&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;From &lt;a href=&quot;http://www.richyli.com/tool/loremipsum/&quot;&gt;亂數假文產生器 - Chinese Lorem Ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><summary type="html">This is a Chinese test post.</summary></entry></feed>
+&lt;h2 id=&quot;函数式编程&quot;&gt;函数式编程&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;函数式编程面向数学的抽象，将计算描述为一种表达式求值，一句话，函数式程序就是一个表达式，属于“结构化编程”的一种，主要思想是把运算过程尽量写成一系列嵌套的函数调用。函数式编程通常与命令式编程相对立，命令式编程注重于逻辑过程，而函数式编程完全是函数或函数的组合(函数式编程关心数据的映射，命令式编程关心解决问题的步骤)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在函数式编程中，函数是“一等公民”，拥有&lt;strong&gt;闭包&lt;/strong&gt;和&lt;strong&gt;高阶函数&lt;/strong&gt;，&lt;strong&gt;惰性计算&lt;/strong&gt;，&lt;strong&gt;递归&lt;/strong&gt;的特性。&lt;/p&gt;
+
+&lt;p&gt;如我们要计算两个数的和与差：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;swift写法:
+func sum(a:Int, b:Int) -&amp;gt; Int {
+return a + b
+}
+func sub(a:Int, b:Int) -&amp;gt; Int {
+return a - b
+}
+
+sum（a,b）,sub(a,b)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;即可&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;那么用函数式编程的思想：
+func operation(additon:(Int, Int) -&amp;gt; Int, a:Int,b:Int) -&amp;gt; Int {
+return additon(a,b)
+}
+operation(additon: sum, a: 6, b: 6)
+operation(additon: sub, a: 6, b: 6)
+这是高阶函数的特性，体现了把运算过程尽量写成一系列嵌套的函数调用的思想
+OC中的写法:
+- (int)sumOfa:(int)a b:(int)b{
+return a + b;
+}
+- (int)subOfa:(int)a b:(int)b{
+return a - b;
+}
+[self sumOfa:6 b:6],[self subOfa:6 b:6];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;即可&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;那么用函数式编程的思想：
+- (int)anotherOfa:(int)a b:(int)b block:(int(^)(int a,int b))block{
+return block(a,b);
+}
+__weak typeof(self) weakself = self;
+[self anotherOfa:10 b:20 block:^int(int a, int b) {
+return [weakself sumOfa:a b:b];
+}];
+[self anotherOfa:10 b:20 block:^int(int a, int b) {
+return [weakself subOfa:a b:b];
+}];
+这里会出现循环引用因为self持有block，block中又引用self需要弱化self
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;响应式编程&quot;&gt;响应式编程&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;响应式编程是一种面向数据流和变化传播的编程范式。这意味着可以在编程语言中很方便地表达静态或动态的数据流，而相关的计算模型会自动将变化的值通过数据流进行传播。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;响应式它是依赖于事件的，响应式的代码它的运行不是按代码的顺序，而是跟多个按时间发生的事件有关。依赖的事件本质就是&lt;strong&gt;Block&lt;/strong&gt;，但在响应式编程里，这些按时间排列的事件，被称为“流”&lt;/p&gt;
+
+&lt;p&gt;在iOS中第三方&lt;strong&gt;ReactiveCocoa&lt;/strong&gt;框架通过函数式编程的方式来实现响应式的编程，&lt;strong&gt;ReactiveCocoa&lt;/strong&gt;通过创建信号，订阅信号，发送信号完成“流”，也就是使用大量的&lt;strong&gt;block&lt;/strong&gt;通过函数之间的回调，实现响应。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;可以看出不论是响应式编程，函数式编程，链式编程还是面向切面试编程基础都为面向对象的编程，其中链式编程，响应式编程更多依赖于回调闭包的方式，函数式编程更多依赖于函数之间的调用，但不完全是依赖回调闭包（如递归），这些设计模式在开发中极为常见，学习了解这些思想在实际运用中灵活使用这些编程模式并与设计模式相互配合，将会事半功倍！&lt;/p&gt;
+
+&lt;h5 id=&quot;ps以上仅为个人见解仅供学习与参考若有不对的地方请指出共同学习&quot;&gt;PS：以上仅为个人见解，仅供学习与参考，若有不对的地方请指出，共同学习~&lt;/h5&gt;</content><author><name>nuanqing</name></author><category term="编程" /><summary type="html">iOS 中常见的五种编程模式：</summary></entry><entry><title type="html">load与initialize</title><link href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/load%E4%B8%8Einitialize/" rel="alternate" type="text/html" title="load与initialize" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/load%E4%B8%8Einitialize</id><content type="html" xml:base="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/load%E4%B8%8Einitialize/">&lt;p&gt;&lt;strong&gt;load&lt;/strong&gt;与&lt;strong&gt;initialize&lt;/strong&gt;是&lt;strong&gt;Nsobject&lt;/strong&gt;类实现初始化操作的两个方法&lt;/p&gt;
+
+&lt;h2 id=&quot;load&quot;&gt;load&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;load&lt;/strong&gt;方法是对于加入运行时期系统中每个类以及分类需要调用的方法，而且只会调用一次&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;调用时机：程序启动的时候，包含类或分类程序载入系统时&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;特点：执行该方法的时候，运行期系统处于”脆弱状态”，在执行子类&lt;strong&gt;load&lt;/strong&gt;方法之前，必定会先执行所有超类的方法，而这时如果代码还依赖了其它程序库，那么程序库里相关类的&lt;strong&gt;load&lt;/strong&gt;方法也必定会先执行，但根据给定的程序库无法判断其中各个类的载入顺序，所以在&lt;strong&gt;load&lt;/strong&gt;方法中使用其它类并不安全，而且&lt;strong&gt;load&lt;/strong&gt;方法并不参与覆写机制&lt;/p&gt;
+
+    &lt;p&gt;需要注意的是因为整个应用在执行&lt;strong&gt;load&lt;/strong&gt;方法时都会阻塞，应尽量减少所执行的操作&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;应用：类的某些初始化操作（如：&lt;strong&gt;Method Swizzling&lt;/strong&gt;需要写在&lt;strong&gt;load方&lt;/strong&gt;法中）&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;initialize&quot;&gt;initialize&lt;/h2&gt;
+&lt;p&gt;该方法会在程序首次用该类之前调用，且只调一次，所以它也属于&lt;code class=&quot;highlighter-rouge&quot;&gt;viewcontroller&lt;/code&gt;生命周期的一部分，是类初始化前就调用的方法&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;调用时机：程序首次用该类之前，运行期系统自动调用&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;特点：运行期系统在执行该方法时处于正常的状态，也就是所有的类或分类已经载入完毕。因此，在此方法中可以可以安全使用并调用任意类的方法，&lt;strong&gt;initialize&lt;/strong&gt;方法参与覆写机制&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;应用：无法编译在编译期设定全局常量，可以放在&lt;strong&gt;intialize&lt;/strong&gt;方法里初始化&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>nuanqing</name></author><category term="initialize" /><summary type="html">load与initialize是Nsobject类实现初始化操作的两个方法</summary></entry><entry><title type="html">iOS静态库的制作</title><link href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS%E9%9D%99%E6%80%81%E5%BA%93%E7%9A%84%E5%88%B6%E4%BD%9C/" rel="alternate" type="text/html" title="iOS静态库的制作" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS%E9%9D%99%E6%80%81%E5%BA%93%E7%9A%84%E5%88%B6%E4%BD%9C</id><content type="html" xml:base="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS%E9%9D%99%E6%80%81%E5%BA%93%E7%9A%84%E5%88%B6%E4%BD%9C/">&lt;p&gt;平时开发需要用到许多的库，有开源的，如&lt;code class=&quot;highlighter-rouge&quot;&gt;AFNetworking &lt;/code&gt;、&lt;code class=&quot;highlighter-rouge&quot;&gt;SDWebImage&lt;/code&gt;，这些都是非常有名的开源库。也有一些闭源的，如友盟分享等等。&lt;/p&gt;
+
+&lt;p&gt;在平时开发中，可能几个公司合作一个项目，但又不想让另一个公司看到自己的源代码，怎么办。这时我们就可以制作自己的静态库。&lt;/p&gt;
+
+&lt;h2 id=&quot;如何制作a&quot;&gt;如何制作.a&lt;/h2&gt;
+
+&lt;p&gt;新建项目：选择&lt;code class=&quot;highlighter-rouge&quot;&gt;cocoa touch static library&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/jtkzz1.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;把你需要制作静态库的源码添加到工程中&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/jtkzz2.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;选择你要公开的.h 文件,
+点击&lt;code class=&quot;highlighter-rouge&quot;&gt;build Phases -&amp;gt;&lt;/code&gt;左边那个&lt;code class=&quot;highlighter-rouge&quot;&gt;“+” -&amp;gt;new headers phases&lt;/code&gt;后将你要公开的.h 文件拖入到&lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; 中&lt;/p&gt;
+
+&lt;p&gt;编辑&lt;code class=&quot;highlighter-rouge&quot;&gt;edit scheme&lt;/code&gt;,选择是&lt;code class=&quot;highlighter-rouge&quot;&gt;release&lt;/code&gt; 还是&lt;code class=&quot;highlighter-rouge&quot;&gt;debug&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/jtkzz3.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后选择真机或者模拟器
+&lt;code class=&quot;highlighter-rouge&quot;&gt;command + B&lt;/code&gt; 编译
+编译完后会出现&lt;code class=&quot;highlighter-rouge&quot;&gt;libprojectname.a&lt;/code&gt; 右键&lt;code class=&quot;highlighter-rouge&quot;&gt;show in finder&lt;/code&gt;
+在目录中会看到&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/jtkzz4.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我这里四个全部都编译了一次，有模拟器和真机。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ lipo -info libFDHandWrite.a Architectures in the fat file: libFDHandWrite.a are: armv7 arm64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在终端中可以看到&lt;code class=&quot;highlighter-rouge&quot;&gt; armv7&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;arm64&lt;/code&gt; 表示这是真机编译出来的。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ lipo -info libFDHandWrite.a Architectures in the fat file: libFDHandWrite.a are: i386 x86_64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;可以看到真机和模拟器是明显不同的。&lt;/p&gt;
+
+&lt;p&gt;要想在真机和模拟器中都能使用，那就要把两个.a 文件合并&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ lipo -create Release-iphoneos/libFDHandWrite.a Release-iphonesimulator/libFDHandWrite.a -output libHandWrite_common.a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;将合并后的.a 文件拿到其他工程中就可以很方便的使用了，记得要连同些.h 文件一起拖进去。&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="静态库" /><summary type="html">平时开发需要用到许多的库，有开源的，如AFNetworking 、SDWebImage，这些都是非常有名的开源库。也有一些闭源的，如友盟分享等等。</summary></entry><entry><title type="html">iOS开发中的线程操作总结</title><link href="http://localhost:4000/%E5%A4%9A%E7%BA%BF%E7%A8%8B/2016/04/24/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E7%BA%BF%E7%A8%8B%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BB%93/" rel="alternate" type="text/html" title="iOS开发中的线程操作总结" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%A4%9A%E7%BA%BF%E7%A8%8B/2016/04/24/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E7%BA%BF%E7%A8%8B%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BB%93</id><content type="html" xml:base="http://localhost:4000/%E5%A4%9A%E7%BA%BF%E7%A8%8B/2016/04/24/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E7%BA%BF%E7%A8%8B%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BB%93/">&lt;h2 id=&quot;进程与线程的区别&quot;&gt;进程与线程的区别&lt;/h2&gt;
+
+&lt;p&gt;进程是资源的分配单位，线程是CPU在进程内切换的单位，简单地说进程就是任务，一个执行程序，进程之间是相互独立的，而线程处于进程空间内、多个线程共享一定空间、多个线程可以同时进行，也就是进程包含线程。&lt;/p&gt;
+
+&lt;p&gt;iOS中一个程序属于一个进程，是否能后台运行程序也就是是否能够进行多进程的切换。&lt;/p&gt;
+
+&lt;h2 id=&quot;ios中的线程&quot;&gt;iOS中的线程&lt;/h2&gt;
+
+&lt;p&gt;iOS中有4中多线程方案，分别为：&lt;code class=&quot;highlighter-rouge&quot;&gt;Ptheads&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;NSThread&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;GCD&lt;/code&gt;与&lt;code class=&quot;highlighter-rouge&quot;&gt;NSOperation&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ptheads&quot;&gt;Ptheads&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ptheads&lt;/code&gt;属于C语言框架的多线程处理方案，具有高度移植性，但在iOS开发中基本用不到。&lt;/p&gt;
+
+&lt;h3 id=&quot;nsthread&quot;&gt;NSThread&lt;/h3&gt;
+
+&lt;p&gt;经过苹果封装后的，并且完全面向对象的，所以你可以直接操控线程对象，非常直观和方便，不过它的生命周期还是需要我们手动管理&lt;/p&gt;
+
+&lt;p&gt;NSThread创建线程：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(run:) object:nil];
+// 启动
+[thread start];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;或者&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[NSThread detachNewThreadSelector:@selector(run:) toTarget:self withObject:nil];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;如果需要获取当前线程&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[NSThread currentThread]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;gcd&quot;&gt;GCD&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;GCD全名为Grand Central Dispatch(大中枢派发)是 Apple 开发的一个多核编程的较新的解决方法，它主要用于优化应用程序以支持多核处理器以及其他对称多处理系统，使用“词法闭包”可以将代码像对象一样传递
+具有多核并行运算，自动利用多核CPU，自动管理线程生命周期的特点。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;任务&quot;&gt;任务&lt;/h4&gt;
+
+&lt;p&gt;线程中执行的代码块，在GCD中任务是放在Block中执行的
+执行任务的方式拥有&lt;strong&gt;同步&lt;/strong&gt;与&lt;strong&gt;异步&lt;/strong&gt;两种方式。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;同步&lt;/strong&gt;（&lt;strong&gt;sync&lt;/strong&gt;)任务能够阻塞当前线程，同时不具备开辟线程的能力&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;异步&lt;/strong&gt;（&lt;strong&gt;async&lt;/strong&gt;）任务不会阻塞当前线程，具备开辟线程的能力，但并不是异步就能开辟线程，这一点非常重要（如：在异步方式在主线程中执行）&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//异步方式在主线程中执行
+dispatch_async(dispatch_get_main_queue(), ^{
+NSLog(@&quot;在当前主线程中执行&quot;);
+});
+
+// 同步任务
+dispatch_sync(queue, ^{
+// 这里放同步执行任务代码
+});
+// 异步任务
+dispatch_async(queue, ^{
+// 这里放异步执行任务代码
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;这里的queue则为需要传入的队列&lt;/p&gt;
+
+&lt;h4 id=&quot;队列&quot;&gt;队列&lt;/h4&gt;
+
+&lt;p&gt;队列相对于同步与异步执行方式而言的，用于存放任务，分为&lt;strong&gt;串行队列&lt;/strong&gt;，&lt;strong&gt;并发队列&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;串行队列&lt;/strong&gt;（&lt;strong&gt;Serial Dispatch Queue&lt;/strong&gt;）遵循先进先出的原则（&lt;strong&gt;FIFO&lt;/strong&gt;）即新任务总是被插入到队列的末尾，而读取任务的时候总是从队列的头部开始读取。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;并发队列&lt;/strong&gt;（&lt;strong&gt;Concurrent Dispatch Queue&lt;/strong&gt;）同样遵循先进先出的原则，不过并发队列可以让多个任务并发（同时）执行&lt;/p&gt;
+
+&lt;h5 id=&quot;全局队列与主队列&quot;&gt;全局队列与主队列&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;全局队列&lt;/strong&gt;是相对于并发队列而言的，在并发队列中GCD 默认提供了&lt;strong&gt;全局并发队列&lt;/strong&gt;（&lt;strong&gt;Global Dispatch Queue&lt;/strong&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;主队列&lt;/strong&gt;是相对于&lt;strong&gt;串行队列&lt;/strong&gt;而言的，在串行队列中GCD 提供了的一种特殊的串行队列：&lt;strong&gt;主队列（Main Dispatch Queue&lt;/strong&gt;）&lt;/p&gt;
+
+&lt;h5 id=&quot;创建队列&quot;&gt;创建队列&lt;/h5&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//串行队列
+dispatch_queue_t searilQueue = dispatch_queue_create(&quot;searilQueue&quot;, DISPATCH_QUEUE_SERIAL);
+//并发队列
+dispatch_queue_t concurrentQueue = dispatch_queue_create(&quot;concurrentQueue&quot;, DISPATCH_QUEUE_CONCURRENT);
+//全局队列
+dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+//主队列
+dispatch_get_main_queue()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;串行队列&lt;/strong&gt;与&lt;strong&gt;并发队列&lt;/strong&gt;通过&lt;code class=&quot;highlighter-rouge&quot;&gt;dispatch_queue_create()&lt;/code&gt;创建，需要传入两个参数，第一个参数表示队列的唯一标识符，可为空；第二个参数用来识别是串行队列还是并发队列。其中&lt;code class=&quot;highlighter-rouge&quot;&gt;DISPATCH_QUEUE_SERIAL&lt;/code&gt; 表示&lt;strong&gt;串行队列&lt;/strong&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;DISPATCH_QUEUE_CONCURRENT&lt;/code&gt; 表示&lt;strong&gt;并发队列&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;全局队列&lt;/strong&gt;通过&lt;code class=&quot;highlighter-rouge&quot;&gt;dispatch_get_global_queue()&lt;/code&gt;创建,需要传入两个参数，第一个为队列优先级；第二个直接传0即可。其中队列优先级分为:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#define DISPATCH_QUEUE_PRIORITY_HIGH 2  (高优先级)
+#define DISPATCH_QUEUE_PRIORITY_DEFAULT 0 （默认优先级）
+#define DISPATCH_QUEUE_PRIORITY_LOW (-2) （低优先级）
+#define DISPATCH_QUEUE_PRIORITY_BACKGROUND INT16_MIN （后台）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;在使用的时候一般传入&lt;code class=&quot;highlighter-rouge&quot;&gt;DISPATCH_QUEUE_PRIORITY_DEFAULT&lt;/code&gt;即可&lt;/p&gt;
+
+&lt;h4 id=&quot;任务与队列组合&quot;&gt;任务与队列组合&lt;/h4&gt;
+
+&lt;p&gt;当同步异步与串行并行队列组合时会有8种不同的组合方式：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;同步串行队列&lt;/li&gt;
+  &lt;li&gt;同步并发队列&lt;/li&gt;
+  &lt;li&gt;异步串行队列&lt;/li&gt;
+  &lt;li&gt;异步并发队列&lt;/li&gt;
+  &lt;li&gt;同步主队列 (会导致线程死锁)&lt;/li&gt;
+  &lt;li&gt;异步主队列&lt;/li&gt;
+  &lt;li&gt;同步全局队列&lt;/li&gt;
+  &lt;li&gt;异步全局队列&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这几种组合的区别：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/xccz1.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然GCD的使用不是简单地这么几种，还有组队列，信号量与栏栅操作等，所有这些操作的使用可以&lt;a href=&quot;https://github.com/nuanqing/FJMultithreadDemo&quot;&gt;点击这里&lt;/a&gt;查看用法&lt;/p&gt;
+
+&lt;h3 id=&quot;nsoperation&quot;&gt;NSOperation&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;NSOperation&lt;/strong&gt;是苹果最早提供给开发者使用的一套多线程解决方案，是基于GCD更高一层的封装，但是比GCD更简单易用、代码可读性也更高&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;NSOperation&lt;/strong&gt;是个抽象类，并不能封装任务，它拥有三个子类&lt;code class=&quot;highlighter-rouge&quot;&gt;NSInvocationOperation&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;NSBlockOperation&lt;/code&gt;以及定义继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;NSOperation&lt;/code&gt;的子类，我们可以使用这三个子类进行任务的封装，定义继承自&lt;strong&gt;NSOperation&lt;/strong&gt;的子类的方式并不经常使用这里就不再讲述&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NSInvocationOperation
+// 创建NSInvocationOperation对象
+NSInvocationOperation *op = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(run) object:nil];
+[op start];
+
+NSBlockOperation
+/ 创建NSBlockOperation对象
+NSBlockOperation *op = [NSBlockOperation blockOperationWithBlock:^{
+// 在主线程
+NSLog(@&quot;------%@&quot;, [NSThread currentThread]);
+}];
+[op start];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;需要注意的是&lt;code class=&quot;highlighter-rouge&quot;&gt;NSBlockOperation&lt;/code&gt; 还有一个方法：&lt;code class=&quot;highlighter-rouge&quot;&gt;addExecutionBlock:&lt;/code&gt; ，通过这个方法可以给 &lt;code class=&quot;highlighter-rouge&quot;&gt;Operation&lt;/code&gt; 添加多个执行 &lt;code class=&quot;highlighter-rouge&quot;&gt;Block&lt;/code&gt;，这样 &lt;code class=&quot;highlighter-rouge&quot;&gt;Operation&lt;/code&gt; 中的任务 会并发执行，它会 在主线程和其它的多个线程 执行这些任务：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NSBlockOperation * blockOperation = [[NSBlockOperation
+blockOperationWithBlock:^{
+NSLog(@&quot;1在第%@个线程&quot;,[NSThread currentThread]);
+}];
+[blockOperation addExecutionBlock:^{
+NSLog(@&quot;2在第%@个线程&quot;,[NSThread currentThread]);
+}];
+[blockOperation addExecutionBlock:^{
+NSLog(@&quot;3在第%@个线程&quot;,[NSThread currentThread]);
+}];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;除此之外&lt;strong&gt;NSOperation&lt;/strong&gt;还可以为线程添加依赖关系，设置最大并发数来控制线程，可以对线程进行取消与挂起的操作。&lt;/p&gt;
+
+&lt;p&gt;其中线程添加依赖关系GCD中没有封装好的方法，实现起来较为复杂（需要信号量加锁控制），同时GCD也没有对线程取消的功能，这在&lt;strong&gt;NSOperation&lt;/strong&gt;中都可以实现，具体用法可以&lt;a href=&quot;https://github.com/nuanqing/FJMultithreadDemo&quot;&gt;点击这里&lt;/a&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="多线程" /><summary type="html">进程与线程的区别</summary></entry><entry><title type="html">iOS应用生命周期总结</title><link href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/iOS%E5%BA%94%E7%94%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%80%BB%E7%BB%93/" rel="alternate" type="text/html" title="iOS应用生命周期总结" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/iOS%E5%BA%94%E7%94%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%80%BB%E7%BB%93</id><content type="html" xml:base="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/iOS%E5%BA%94%E7%94%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%80%BB%E7%BB%93/">&lt;h2 id=&quot;应用生命周期&quot;&gt;应用生命周期&lt;/h2&gt;
+
+&lt;p&gt;应用的生命周期是以我们点击APP图标之后，从开始到终止（退出）过程中所维护的状态&lt;/p&gt;
+
+&lt;p&gt;当我们点击图标之后，应用以main函数为入口，设置&lt;code class=&quot;highlighter-rouge&quot;&gt;AppDelegate&lt;/code&gt;称为函数的代理,接着同时启动主线程的&lt;code class=&quot;highlighter-rouge&quot;&gt;RunLoop&lt;/code&gt;（主线程&lt;code class=&quot;highlighter-rouge&quot;&gt;RunLoop&lt;/code&gt;默认启动将一直存在，它是维持程序生命周期的基本，实质是特殊的&lt;code class=&quot;highlighter-rouge&quot;&gt;do-while&lt;/code&gt;循环，直到程序结束，APP退出，循环结束，关于更多RunLoop的知识可以查看&lt;a href=&quot;&quot;&gt;这篇文章&lt;/a&gt;），&lt;code class=&quot;highlighter-rouge&quot;&gt;APPDelegate&lt;/code&gt;类在应用生命周期的不同阶段会调用不同的方法，具体过程如图所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/smzq1.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在此过程中，iOS应用会维持5种状态：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Not Running（非运行状态）&lt;/strong&gt;:应用没有运行或被系统终止&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Inactive（前台非活动状态）&lt;/strong&gt;：应用正在进入前台的状态，但还不能接受事件的处理&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Active(前台活动状态)&lt;/strong&gt;：应用进入前台状态，可以接受事件处理&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Background（后台状态）&lt;/strong&gt;：应用进入后台后，依然能够执行代码，执行完毕后应用立即进入挂起状态&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Suspended（挂起状态）&lt;/strong&gt;：处于挂起的应用进入一种“冷冻”状态，不能执行代码，如果系统内存不足应用会被终止&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/smzq2.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;代理方法&quot;&gt;代理方法&lt;/h3&gt;
+
+&lt;p&gt;每种状态的跃迁，都会回调&lt;strong&gt;APPDlegate&lt;/strong&gt;的代理方法，在应用的生命周期中会用到很多方法和通知，以下几种最为常见：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;application:didFinishLaunchingWithOptions&lt;/strong&gt; 对应于&lt;strong&gt;UIApplicationDidFinishLaunchingNotification&lt;/strong&gt;的本地通知,程序启动并进行初始化调用该方法并发出通知，这个阶段会实例化根视图控制器&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;applicationDidBecomeActive&lt;/strong&gt;对应于&lt;strong&gt;UIApplicationDidFinishLaunchingNotification&lt;/strong&gt;的本地通知,应用处于前台非活跃状态时调用该方法并发出通知，这个阶段可以恢复UI的状态&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;applicationWillResignActive&lt;/strong&gt;对应于&lt;strong&gt;UIApplicationWillResignActiveNotification&lt;/strong&gt;的本地通知,应用将要失去Active状态时调用该方法并发出通知，比如有电话进来或者按下Home键，之后程序进入后台状态&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;applicationDidEnterBackground&lt;/strong&gt;对应于&lt;strong&gt;UIApplicationDidEnterBackgroundNotification&lt;/strong&gt;的本地通知,应用进入后台时调用该方法并发出通知，这个阶段可以保存用户数据，释放数据库资源&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;applicationWillEnterForeground&lt;/strong&gt;对应于&lt;strong&gt;UIApplicationWillEnterForegroundNotification&lt;/strong&gt;的本地通知,应用进入前台但还处于活跃状态时调用该方法并发出通知，这个阶段可以恢复用户数据&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;applicationWillTerminate&lt;/strong&gt;对应于&lt;strong&gt;UIApplicationWillTerminateNotification&lt;/strong&gt;的本地通知,应用被终止时调用该方法并发出通知，这个阶段可以保存用户数据，释放数据库资源&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;uiviewcontroller-的生命周期&quot;&gt;UIViewController 的生命周期&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 非storyBoard(xib或非xib)都走这个方法(注意: 不要在这里做View相关操作，View在loadView方法中才初始化)
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+
+}
+return self;
+}
+// 如果连接了串联图storyBoard 走这个方法(init方法和initCoder方法相似，只是被调用的环境不一样，如果用代码进行初始化，会调用init，从nib文件或者归档进行初始化，会调用initCoder)
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+if (self = [super initWithCoder:aDecoder]) {
+
+}
+return self
+}
+// xib 加载 完成
+- (void)awakeFromNib {
+[super awakeFromNib];
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+}
+// 加载视图(默认从nib,loadView方法是开始加载视图的起始方法，除非手动调用，否则在ViewController的生命周期中没特殊情况只会被调用一次,需要重写loadView方法的时候，不要调用父类的方法)
+- (void)loadView {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+self.view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+self.view.backgroundColor = [UIColor redColor];
+}
+//视图控制器中的视图加载完成，viewController自带的view加载完成
+- (void)viewDidLoad {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidLoad];
+}
+//视图将要出现(这个方法中完成任何与视图显示相关的任务，例如改变视图方向、状态栏方向、视图显示样式等)
+- (void)viewWillAppear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewWillAppear:animated];
+}
+// view 即将布局其 Subviews(view的bounds改变了,要调整Subviews的位置，在调整之前要做的一些工作就可以在该方法中实现,如状态栏从不显示到显示，视图方向变化)
+- (void)viewWillLayoutSubviews {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewWillLayoutSubviews];
+}
+// view 已经布局其 Subviews(view的bounds改变了,已经调整Subviews的位置，在调整完成之后要做的一些工作就可以在该方法中实现)
+- (void)viewDidLayoutSubviews {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidLayoutSubviews];
+}
+//视图已经出现(这个方法中执行视图显示相关附件任务)
+- (void)viewDidAppear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidAppear:animated];
+}
+//视图将要消失(视图将被从屏幕上移除之前执行,view即将从superView中移除且移除动画切换之前，此时还没有调用removeFromSuperview)
+- (void)viewWillDisappear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewWillDisappear:animated];
+}
+//视图已经消失(视图已经被从屏幕上移除，用户看不到这个视图了,view从superView中移除，移除动画切换之后调用，此时已调用removeFromSuperview)
+- (void)viewDidDisappear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidDisappear:animated];
+}
+//出现内存警告  (模拟内存警告:点击模拟器-&amp;gt;hardware-&amp;gt; Simulate Memory Warning)
+- (void)didReceiveMemoryWarning {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super didReceiveMemoryWarning];
+}
+// 视图被销毁(viewController被释放时调用。视图view被销毁，此处需要对你在init和viewDidLoad中创建的对象进行释放，如定时器与通知的移除)
+- (void)dealloc {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;严格意义说一个&lt;code class=&quot;highlighter-rouge&quot;&gt;ViewController&lt;/code&gt;完整的声明周期还应该包括&lt;strong&gt;initialize&lt;/strong&gt;这个方法，这个方法经常与&lt;strong&gt;load&lt;/strong&gt;作为面试题来问，而了解这两个方法的调用时机也很重要，关于这两个方法的介绍，可以&lt;a href=&quot;&quot;&gt;点击这里&lt;/a&gt;&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="life cycle" /><summary type="html">应用生命周期</summary></entry><entry><title type="html">iOS单元测试</title><link href="http://localhost:4000/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/iOS%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/" rel="alternate" type="text/html" title="iOS单元测试" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/iOS%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95</id><content type="html" xml:base="http://localhost:4000/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/iOS%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/">&lt;p&gt;我们经常说模块拆分与封装可以降低耦合，而低耦合的业务逻辑能够方便单元测试，那么什么在iOS开发中我们怎样进行单元测试呢？首先我们需要了解单元测试的概念&lt;/p&gt;
+
+&lt;h2 id=&quot;单元测试&quot;&gt;单元测试&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;单元测试&lt;/strong&gt;（英语：Unit Testing）又称为模块测试, 是针对程序模块的最小单位来进行正确性检验的测试工作。程序单元是应用的最小可测试部件。在过程化编程中，一个单元就是单个程序、函数、过程等；对于面向对象编程，最小单元就是方法，包括基类（超类）、抽象类、或者派生类（子类）中的方法&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;testdemotests与testdemouitests&quot;&gt;TestDemoTests与TestDemoUITests&lt;/h2&gt;
+
+&lt;p&gt;在iOS开发中，Xcode已经集成单元测试的功能，当我们新建文件的时候，除了项目文件夹之外还会有&lt;code class=&quot;highlighter-rouge&quot;&gt;TestDemoTests&lt;/code&gt;与&lt;code class=&quot;highlighter-rouge&quot;&gt;TestDemoUITests&lt;/code&gt;两个文件夹，这两个文件夹包含的内容分别为方法测试与UI测试&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs1.jpg&quot; alt=&quot;png1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;打开其中的&lt;code class=&quot;highlighter-rouge&quot;&gt;TestDemoTests&lt;/code&gt;文件夹，点开&lt;code class=&quot;highlighter-rouge&quot;&gt;TestDemoTests.m&lt;/code&gt;类，会有以下四个方法：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs2.jpg&quot; alt=&quot;png2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;测试&quot;&gt;测试&lt;/h2&gt;
+
+&lt;p&gt;要进行测试，我们需要有被测试的方法，这里我们新建一个类&lt;code class=&quot;highlighter-rouge&quot;&gt;ValidManager&lt;/code&gt;，里面包含有判断输入是否为手机号的方法&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs3.jpg&quot; alt=&quot;png3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我们测试这个方法就需要在&lt;code class=&quot;highlighter-rouge&quot;&gt;TestDemoTests&lt;/code&gt;创建测试类（也可以使用初始的模板），这个类继承于XCTestCase：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs4.jpg&quot; alt=&quot;png4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后导入需要测试的类，进行初始化，添加测试方法&lt;code class=&quot;highlighter-rouge&quot;&gt;testMobile&lt;/code&gt;，注意所有的方法都需要以&lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt;开头，表明这是一个测试的方法，然后添加需要的断言进行测试，因为是&lt;code class=&quot;highlighter-rouge&quot;&gt;BOOL&lt;/code&gt;类型的判断，我们添加测试成功的断言&lt;code class=&quot;highlighter-rouge&quot;&gt;XCTAssertTrue&lt;/code&gt;
+可以进行测试的方法，左边都会有一个菱形按钮，需要测试时我们只需要点击菱形测试按钮即可，当我们需要测试的方法通过的时候，左边的菱形会变成绿色的对号，测试成功，如图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs5.jpg&quot; alt=&quot;png5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这里可以看到，我们的测试已经成功，如果测试失败，左边则会出现红色差号，并提示那个方法没有测试通过&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs6.jpg&quot; alt=&quot;png6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如果我们需要对一个方法进行时间的测试，则需要在&lt;code class=&quot;highlighter-rouge&quot;&gt;testPerformanceExample&lt;/code&gt;方法&lt;code class=&quot;highlighter-rouge&quot;&gt;measureBlock&lt;/code&gt;块中，添加需要测试的方法即可&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs7.jpg&quot; alt=&quot;png7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可以看到验证手机号的方法，使用了0.001秒，我们可以点开左边灰色菱形按钮&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dycs8.jpg&quot; alt=&quot;png8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这里是测试时间的一些参数，点击Edit可以修改&lt;code class=&quot;highlighter-rouge&quot;&gt;BaseLine&lt;/code&gt;时间基线与&lt;code class=&quot;highlighter-rouge&quot;&gt;MAX STDDEV&lt;/code&gt;最大浮动，当我们测试时间的时间，在&lt;code class=&quot;highlighter-rouge&quot;&gt;BaseLine&lt;/code&gt;的&lt;code class=&quot;highlighter-rouge&quot;&gt;MAX STDDEV&lt;/code&gt;范围内时，测试才会有效&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="测试" /><summary type="html">我们经常说模块拆分与封装可以降低耦合，而低耦合的业务逻辑能够方便单元测试，那么什么在iOS开发中我们怎样进行单元测试呢？首先我们需要了解单元测试的概念</summary></entry><entry><title type="html">iOS动画与绘图需要了解的点</title><link href="http://localhost:4000/ui/2016/04/24/iOS%E5%8A%A8%E7%94%BB%E4%B8%8E%E7%BB%98%E5%9B%BE%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E7%82%B9/" rel="alternate" type="text/html" title="iOS动画与绘图需要了解的点" /><published>2016-04-25T07:31:30+08:00</published><updated>2016-04-25T07:31:30+08:00</updated><id>http://localhost:4000/ui/2016/04/24/iOS%E5%8A%A8%E7%94%BB%E4%B8%8E%E7%BB%98%E5%9B%BE%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E7%82%B9</id><content type="html" xml:base="http://localhost:4000/ui/2016/04/24/iOS%E5%8A%A8%E7%94%BB%E4%B8%8E%E7%BB%98%E5%9B%BE%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E7%82%B9/">&lt;h2 id=&quot;动画&quot;&gt;动画&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;动画&lt;/strong&gt;分为&lt;strong&gt;UIView动画（视图动画）&lt;/strong&gt;，&lt;strong&gt;CATransation（隐式动画）&lt;/strong&gt;，&lt;strong&gt;CAanimation（显式动画）&lt;/strong&gt;，&lt;strong&gt;CGAffineTransform（二维动画）&lt;/strong&gt;，&lt;strong&gt;CATransform3D(三维动画)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;其中&lt;strong&gt;UIView动画&lt;/strong&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;UIKit&lt;/code&gt;框架的&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;类，&lt;strong&gt;CATransation&lt;/strong&gt;继承于&lt;strong&gt;CAanimation&lt;/strong&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;QuartzCore&lt;/code&gt;框架；&lt;strong&gt;CATransform3D&lt;/strong&gt;也属于&lt;code class=&quot;highlighter-rouge&quot;&gt;QuartzCore&lt;/code&gt;框架是一个C的结构体；&lt;strong&gt;CGAffineTransform&lt;/strong&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;CoreGraphics&lt;/code&gt;框架是一个C的结构体，&lt;code class=&quot;highlighter-rouge&quot;&gt;CoreGraphics&lt;/code&gt;是一套C语言绘图框架，具有很强的移植性&lt;/p&gt;
+
+&lt;h3 id=&quot;视图动画&quot;&gt;视图动画&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;动画（包含弹性动画 iOS 8.0后)&lt;/p&gt;
+
+&lt;h3 id=&quot;隐式动画&quot;&gt;隐式动画&lt;/h3&gt;
+&lt;p&gt;需要把属性绑定到原子事务&lt;code class=&quot;highlighter-rouge&quot;&gt;CATransation&lt;/code&gt;通过&lt;code class=&quot;highlighter-rouge&quot;&gt;CATransation begin &lt;/code&gt;与&lt;code class=&quot;highlighter-rouge&quot;&gt;CATransation commit&lt;/code&gt;进行开始与提交动画,隐式动画通过&lt;code class=&quot;highlighter-rouge&quot;&gt;CAanimation&lt;/code&gt;实现的，所以所有的隐式动画可以做到的显式动画都可以&lt;/p&gt;
+
+&lt;h3 id=&quot;显式动画&quot;&gt;显式动画&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CAanimation&lt;/code&gt;类管理重复动画，控制时间和步调，能够设定到图层过渡&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CAanimation&lt;/code&gt;常见的子类（&lt;code class=&quot;highlighter-rouge&quot;&gt;CABasicAnimation&lt;/code&gt;与&lt;code class=&quot;highlighter-rouge&quot;&gt;CAKeyframeAnimation&lt;/code&gt;并不是直接继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;CAanimation&lt;/code&gt;，而是继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;CAPropertyAnimation&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;CAPropertyAnimation&lt;/code&gt;继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;CAanimation&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;CASpringAnimation&lt;/code&gt;则继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;CABasicAnimation&lt;/code&gt;）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CABasicAnimation&lt;/strong&gt; （基础动画）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAKeyframeAnimation&lt;/strong&gt; （关键帧动画，可以设置多个路径）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAAnimationGroup&lt;/strong&gt; （动画组支持多个动画并发执行）&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CASpringAnimation&lt;/strong&gt;（弹性动画 iOS 9.0后）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;二维动画&lt;/strong&gt;：&lt;strong&gt;CGAffineTransform&lt;/strong&gt; (平移，缩放，旋转和倾斜)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;三维动画&lt;/strong&gt;：&lt;strong&gt;CATransform3D&lt;/strong&gt; (实现3D立体效果)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;绘图&quot;&gt;绘图&lt;/h2&gt;
+
+&lt;p&gt;iOS可以通过&lt;code class=&quot;highlighter-rouge&quot;&gt;Core Graphic&lt;/code&gt;与&lt;code class=&quot;highlighter-rouge&quot;&gt;UIBezierPath&lt;/code&gt;(&lt;code class=&quot;highlighter-rouge&quot;&gt;UIKit&lt;/code&gt;类)进行绘图。当我们需要绘图到根层上时(&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;的绘图)，需要在&lt;code class=&quot;highlighter-rouge&quot;&gt;drawRect:&lt;/code&gt;方法中绘制；如果是自定义的&lt;code class=&quot;highlighter-rouge&quot;&gt;layer&lt;/code&gt;（如：&lt;code class=&quot;highlighter-rouge&quot;&gt;CAShapeLayer&lt;/code&gt;）可以在其它地方绘图将&lt;code class=&quot;highlighter-rouge&quot;&gt;path&lt;/code&gt;赋值给&lt;code class=&quot;highlighter-rouge&quot;&gt;layer&lt;/code&gt;的&lt;code class=&quot;highlighter-rouge&quot;&gt;path&lt;/code&gt;，具体使用情况可以根据需要灵活使用。&lt;/p&gt;
+
+&lt;p&gt;需要注意的是&lt;code class=&quot;highlighter-rouge&quot;&gt;drawRect&lt;/code&gt;的方法属于&lt;code class=&quot;highlighter-rouge&quot;&gt;Core Graphic&lt;/code&gt;框架，占用CPU消耗内存较大；而自定义的&lt;code class=&quot;highlighter-rouge&quot;&gt;layer&lt;/code&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;QuartzCore&lt;/code&gt;框架，通过GPU渲染图层，不消耗内存&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;的属性&lt;code class=&quot;highlighter-rouge&quot;&gt;layer&lt;/code&gt;是专门管理图像绘制与动画的图层。其中&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;UIResponder&lt;/code&gt;，而&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;的属性&lt;code class=&quot;highlighter-rouge&quot;&gt;layer&lt;/code&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;CALayer&lt;/code&gt;类，&lt;code class=&quot;highlighter-rouge&quot;&gt;CALayer&lt;/code&gt;继承自&lt;code class=&quot;highlighter-rouge&quot;&gt;NSObject&lt;/code&gt;，所以&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;与&lt;code class=&quot;highlighter-rouge&quot;&gt;CALayer&lt;/code&gt;类本质上的区别是，&lt;code class=&quot;highlighter-rouge&quot;&gt;CALayer&lt;/code&gt;类无法响应事件。需要注意的&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;UIKit&lt;/code&gt;框架而&lt;code class=&quot;highlighter-rouge&quot;&gt;CALayer&lt;/code&gt;属于&lt;code class=&quot;highlighter-rouge&quot;&gt;QuartzCore&lt;/code&gt;框架。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CALayer&lt;/strong&gt;拥有以下几个常见的子类：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CAEmitterLayer&lt;/strong&gt; （发射器层，用来控制粒子效果）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAGradientLayer&lt;/strong&gt; （梯度层，颜色渐变）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAEAGLayer&lt;/strong&gt; （用&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL ES&lt;/code&gt;绘制的层）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAReplicationLayer&lt;/strong&gt; （用来自动复制&lt;code class=&quot;highlighter-rouge&quot;&gt;sublayer&lt;/code&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAScrollLayer&lt;/strong&gt; （用来管理可滑动的区域）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CAShapeLayer&lt;/strong&gt; （绘制立体的贝塞尔曲线）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CATextLayer&lt;/strong&gt; （可以绘制&lt;code class=&quot;highlighter-rouge&quot;&gt;AttributeString&lt;/code&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CATiledLayer&lt;/strong&gt; （用来管理一副可以被分割的大图）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CATransformLayer&lt;/strong&gt; （用来渲染3D layer的层次结构）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Core Graphic&lt;/code&gt;图形上下文&lt;code class=&quot;highlighter-rouge&quot;&gt;CGContextRef&lt;/code&gt;绘图包括获取上下文，添加点绘图，设置上下文，渲染上下文，关闭路径&lt;/p&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;参考链接:&lt;/h2&gt;
+&lt;p&gt;http://blog.csdn.net/ssirreplaceable/article/details/52974023 核心绘图——Core Graphics
+http://www.cocoachina.com/ios/20150616/12171.html 弹性动画
+https://www.cnblogs.com/chrisbin/p/6391933.html?utm_source=itdadao&amp;amp;utm_medium=referral DrawRect与CAShapeLayer的对比&lt;/p&gt;</content><author><name>nuanqing</name></author><category term="动画" /><summary type="html">动画</summary></entry></feed>

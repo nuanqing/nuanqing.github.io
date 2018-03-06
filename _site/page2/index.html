@@ -127,7 +127,7 @@
   var CONFIG = {
     root: '',
     scheme: 'Pisces',
-    sidebar: {"position":"right","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -177,7 +177,7 @@
   
   
 
-  <div class="container sidebar-position-right page-home ">
+  <div class="container sidebar-position-left page-home ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -339,7 +339,7 @@
   
 
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/foo/2013/12/24/long-title/">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/ui/2016/04/24/iOS%E4%B8%89%E7%A7%8D%E5%AE%9A%E6%97%B6%E5%99%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="nuanqing">
@@ -361,8 +361,8 @@
           
             
                 
-                <a class="post-title-link" href="/foo/2013/12/24/long-title/" itemprop="url">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.
+                <a class="post-title-link" href="/ui/2016/04/24/iOS%E4%B8%89%E7%A7%8D%E5%AE%9A%E6%97%B6%E5%99%A8/" itemprop="url">
+                iOS三种定时器
               </a>
             
           
@@ -378,8 +378,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-12-25T07:31:06+08:00">
-                2013-12-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-25T07:31:30+08:00">
+                2016-04-24
               </time>
             
 
@@ -402,8 +402,8 @@
               
                 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Foo" itemprop="url" rel="index">
-                    <span itemprop="name">Foo</span>
+                  <a href="/category/#/UI" itemprop="url" rel="index">
+                    <span itemprop="name">UI</span>
                   </a>
                 </span>
 
@@ -419,7 +419,7 @@
 
           
           
-             <span id="/foo/2013/12/24/long-title/" class="leancloud_visitors" data-flag-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.">
+             <span id="/ui/2016/04/24/iOS%E4%B8%89%E7%A7%8D%E5%AE%9A%E6%97%B6%E5%99%A8/" class="leancloud_visitors" data-flag-title="iOS三种定时器">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -448,11 +448,12 @@
 
       
         
-          <p>This post has a long title. Make sure the title displayed right.</p>
+          <p>在iOS开发中定时器的实现总共有三种方式：<strong>NSTimer</strong>，<strong>CADisplayLink</strong>与<strong>GCD</strong>.</p>
+
 
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/foo/2013/12/24/long-title/#" rel="contents">
+            <a class="btn" href="/ui/2016/04/24/iOS%E4%B8%89%E7%A7%8D%E5%AE%9A%E6%97%B6%E5%99%A8/#" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -502,7 +503,7 @@
   
 
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/foo/bar/baz/2013/12/24/categories/">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS-%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="nuanqing">
@@ -524,8 +525,8 @@
           
             
                 
-                <a class="post-title-link" href="/foo/bar/baz/2013/12/24/categories/" itemprop="url">
-                Categories
+                <a class="post-title-link" href="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS-%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/" itemprop="url">
+                iOS 静态库和动态库
               </a>
             
           
@@ -541,8 +542,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-12-25T07:30:09+08:00">
-                2013-12-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-25T07:31:30+08:00">
+                2016-04-24
               </time>
             
 
@@ -565,38 +566,12 @@
               
                 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Foo" itemprop="url" rel="index">
-                    <span itemprop="name">Foo</span>
+                  <a href="/category/#/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86" itemprop="url" rel="index">
+                    <span itemprop="name">基础知识</span>
                   </a>
                 </span>
 
                 
-                
-                  ， 
-                
-              
-                
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Bar" itemprop="url" rel="index">
-                    <span itemprop="name">Bar</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Baz" itemprop="url" rel="index">
-                    <span itemprop="name">Baz</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
                 
               
             </span>
@@ -608,7 +583,7 @@
 
           
           
-             <span id="/foo/bar/baz/2013/12/24/categories/" class="leancloud_visitors" data-flag-title="Categories">
+             <span id="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS-%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/" class="leancloud_visitors" data-flag-title="iOS 静态库和动态库">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -637,11 +612,10 @@
 
       
         
-          <p>This post contains 3 categories. Make sure your theme can display all of the categories.</p>
-
+          库就是程序代码的集合，将N个文件组织起来，是共享程序代码的一种方式。库从本质上来说是一种可执行代码的二进制格式，可以被载入内存中执行
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/foo/bar/baz/2013/12/24/categories/#" rel="contents">
+            <a class="btn" href="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS-%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/">
               阅读全文 &raquo;
             </a>
           </div>
@@ -691,7 +665,7 @@
   
 
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/foo/2013/12/24/link-post/">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/Swift%E4%B8%8EOC%E6%B7%B7%E7%BC%96/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="nuanqing">
@@ -711,12 +685,13 @@
           <h1 class="post-title" itemprop="name headline">
           
           
-              
-              <a class="post-title-link post-title-link-external" target="_blank" href="http://www.google.com/" itemprop="url">
-                Link Post
-                <i class="fa fa-external-link"></i>
+            
+                
+                <a class="post-title-link" href="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/Swift%E4%B8%8EOC%E6%B7%B7%E7%BC%96/" itemprop="url">
+                Swift与OC混编
               </a>
             
+          
         </h1>
         
 
@@ -729,8 +704,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-12-25T07:30:04+08:00">
-                2013-12-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-25T07:31:30+08:00">
+                2016-04-24
               </time>
             
 
@@ -753,8 +728,8 @@
               
                 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Foo" itemprop="url" rel="index">
-                    <span itemprop="name">Foo</span>
+                  <a href="/category/#/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9" itemprop="url" rel="index">
+                    <span itemprop="name">基础知识点</span>
                   </a>
                 </span>
 
@@ -770,7 +745,7 @@
 
           
           
-             <span id="/foo/2013/12/24/link-post/" class="leancloud_visitors" data-flag-title="Link Post">
+             <span id="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/Swift%E4%B8%8EOC%E6%B7%B7%E7%BC%96/" class="leancloud_visitors" data-flag-title="Swift与OC混编">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -799,11 +774,14 @@
 
       
         
-          <p>This is a link post. Clicking on the link should open <a href="http://www.google.com/">Google</a> in a new tab or window.</p>
+          <ol>
+  <li><strong>iOS 8.0</strong>以后引入</li>
+</ol>
+
 
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/foo/2013/12/24/link-post/#" rel="contents">
+            <a class="btn" href="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/Swift%E4%B8%8EOC%E6%B7%B7%E7%BC%96/#" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -853,7 +831,7 @@
   
 
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/foo/2013/12/24/tags/">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/MVC%E4%B8%8EMVVM%E7%9A%84%E7%90%86%E8%A7%A3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="nuanqing">
@@ -875,8 +853,8 @@
           
             
                 
-                <a class="post-title-link" href="/foo/2013/12/24/tags/" itemprop="url">
-                Tags
+                <a class="post-title-link" href="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/MVC%E4%B8%8EMVVM%E7%9A%84%E7%90%86%E8%A7%A3/" itemprop="url">
+                MVC与MVVM的理解
               </a>
             
           
@@ -892,8 +870,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-12-25T07:29:53+08:00">
-                2013-12-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-25T07:31:30+08:00">
+                2016-04-24
               </time>
             
 
@@ -916,8 +894,8 @@
               
                 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Foo" itemprop="url" rel="index">
-                    <span itemprop="name">Foo</span>
+                  <a href="/category/#/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9" itemprop="url" rel="index">
+                    <span itemprop="name">基础知识点</span>
                   </a>
                 </span>
 
@@ -933,7 +911,7 @@
 
           
           
-             <span id="/foo/2013/12/24/tags/" class="leancloud_visitors" data-flag-title="Tags">
+             <span id="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/MVC%E4%B8%8EMVVM%E7%9A%84%E7%90%86%E8%A7%A3/" class="leancloud_visitors" data-flag-title="MVC与MVVM的理解">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -962,11 +940,10 @@
 
       
         
-          <p>This post contains 3 tags. Make sure your theme can display all of the tags.</p>
-
+          其实iOS的MVC感觉并不是经典的MVC模式，查阅很多的资料，经典的MVC是对于Web端来提出的，模型，视图，控制器之间都是单向传递数据引用，控制器只是负责业务逻辑
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/foo/2013/12/24/tags/#" rel="contents">
+            <a class="btn" href="/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/MVC%E4%B8%8EMVVM%E7%9A%84%E7%90%86%E8%A7%A3/">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1016,7 +993,7 @@
   
 
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/foo/2013/12/24/elements/">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/Instruments%E7%9A%84%E4%BD%BF%E7%94%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="nuanqing">
@@ -1038,8 +1015,8 @@
           
             
                 
-                <a class="post-title-link" href="/foo/2013/12/24/elements/" itemprop="url">
-                Elements
+                <a class="post-title-link" href="/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/Instruments%E7%9A%84%E4%BD%BF%E7%94%A8/" itemprop="url">
+                Instruments的使用
               </a>
             
           
@@ -1055,8 +1032,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-12-25T07:29:08+08:00">
-                2013-12-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-25T07:31:30+08:00">
+                2016-04-24
               </time>
             
 
@@ -1079,8 +1056,8 @@
               
                 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/Foo" itemprop="url" rel="index">
-                    <span itemprop="name">Foo</span>
+                  <a href="/category/#/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3" itemprop="url" rel="index">
+                    <span itemprop="name">调试相关</span>
                   </a>
                 </span>
 
@@ -1096,7 +1073,7 @@
 
           
           
-             <span id="/foo/2013/12/24/elements/" class="leancloud_visitors" data-flag-title="Elements">
+             <span id="/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/Instruments%E7%9A%84%E4%BD%BF%E7%94%A8/" class="leancloud_visitors" data-flag-title="Instruments的使用">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1125,12 +1102,174 @@
 
       
         
-          <p>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don’t forget to redefine the style by yourself.</p>
+          Instruments是一个强大而灵活的性能分析和测试工具，它是Xcode开发工具集的一部分，它被设计用于帮助分析OS X和iOS的应用、进程与设备，以便更好的理解和优化它们的行为和表现。结合**Instruments**从你的app开发工作刚刚开始，可以节省你的时间，帮助你在开发周期的早期发现问题
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/Instruments%E7%9A%84%E4%BD%BF%E7%94%A8/">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/2016-04-24-iOS%E7%99%BB%E5%BD%95token%E4%B8%8E%E8%AF%B7%E6%B1%82%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="nuanqing">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/assets/images/100.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="记录点滴">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/2016-04-24-iOS%E7%99%BB%E5%BD%95token%E4%B8%8E%E8%AF%B7%E6%B1%82%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1/" itemprop="url">
+                iOS登录token与请求安全设计
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-25T07:31:30+08:00">
+                2016-04-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/#/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8" itemprop="url" rel="index">
+                    <span itemprop="name">加密安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/2016-04-24-iOS%E7%99%BB%E5%BD%95token%E4%B8%8E%E8%AF%B7%E6%B1%82%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1/" class="leancloud_visitors" data-flag-title="iOS登录token与请求安全设计">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>在介绍之前，我们应该首先了解一下密码学的知识，可以<a href="/_posts/2016-04-24-常见的加密方式总结.md">点击这里</a>查看</p>
 
 
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/foo/2013/12/24/elements/#" rel="contents">
+            <a class="btn" href="/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/2016-04-24-iOS%E7%99%BB%E5%BD%95token%E4%B8%8E%E8%AF%B7%E6%B1%82%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1/#" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1226,7 +1365,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">16</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1248,7 +1387,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">16</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

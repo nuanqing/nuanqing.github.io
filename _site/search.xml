@@ -2,752 +2,1390 @@
 <search>
   
     <entry>
-      <title>Next Theme Tutorial></title>
-      <url>/tutorial/2017/07/20/next-tutorial/</url>
+      <title>快捷键实用小技巧></title>
+      <url>/%E5%BF%AB%E6%8D%B7%E9%94%AE/2016/04/24/%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%AE%9E%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+      <content type="text">Xcode常用快捷键
+
+Command+0 显示/隐藏导航器面板
+
+Command+Option+0 显示/隐藏实用工具面板
+
+Control+6（键入方法/变量名+Enter跳转）文件跳转栏
+
+Command + Shift + o 快速查找
+
+Control + Command + Up Arrow .h and .m 文件间的快速切换
+
+Command + Shift + K 清除工程
+
+Command + Shift + 0 文档和参考
+
+command + ~ 文件切换
+
+command + option + ←或→   方法显示与隐藏
+
+command + [ 缩进
+
+command + shift + N 创建工程
+
+command + N 创建文件
+
+command + S 保存
+
+command + W 关闭
+
+command + Q 退出Xcode
+
+option ＋ command ＋ ／ 注释方法(方法添加注释)
+
+百度到Xcode8注释快捷键的失效解决方法
+命令运行：
+
+sudo /usr/libexec/xpccachectl
+
+cd  进入某个文件夹
+
+cd .. 返回上一级文件夹
+
+cd ~ 跳到根目录下
+
+ls  查看当前文件夹下目录
+
+mkdir 创建一个文件夹
+
+rm 删除一个文件
+
+rm -rf 强制删除一个文件或目录
+
+vi xxx.c  创建一个可编辑的点C文件
+
+VI下得命令
+i   进入可编辑模式
+
+esc（退出键）退出编辑模式
+
+:wq  是保存写入的代码并退出
+
+q!   强制退出当前文件
+
+yy   复制当前行
+
+dd   删除当前行
+
+p    在当前光标下拷贝   粘贴版数据
+
+创建TXT文件
+
+输入指令vim 文件名.txt i 在当前位置生前插入
+
+I 在当前行首插入
+
+a 在当前位置后插入
+
+A 在当前行尾插入
+
+o 在当前行之后插入一行
+
+O 在当前行之前插入一行
+
+当我们输入完结的时候，我们先要按一下esc键，再一次输入：wq，意思就是保存退出
+
+我们可以回到桌面上看一下，有没有我们的文档，如果没有
+我们可以在终端上输入ls查看一下文件，利用  mv 文件名.txt to Desktop 指令，将文件发送到桌面上
+
+</content>
+      <categories>
+        
+          <category> 快捷键 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 快捷键 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>常见的加密方式总结></title>
+      <url>/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</url>
+      <content type="text">Base64
+Base64作为密码学的基础，是网络上最常见的用于传输8Bit字节码的编码方式之一
+
+基本原理:原本是 8个bit 一组表示数据,改为 6个bit一组表示数据,不足的部分补零,每 两个0 用 一个 = 表示
+
+特点：
+
+
+  具有不可读性，需要解码后才能阅读
+  没有密钥的概念，可以轻松破解
+
+
+应用：http请求中数据的转码，可以作为后台密码的保存
+
+MD5
+MD5（Message Digest Algorithm 中文名为消息摘要算法第五版）严格来说并不算是加密的方式，因为MD5具有不可逆性，所以不能解密（简单的可以破解）,它属于哈希算法，哈希，也叫做散列、数据摘要，是一类基础而又实用的算法，哈希函数的作用就是把某一类不定长的对象映射为另一类固定长度的对象。而MD5能够把一个任意长度的字节串变换成一定长度的十六进制的大整数
+
+特点：
+
+  压缩性 : 任意长度的数据,算出的 MD5  值长度都是固定的.
+  容易计算 : 从原数据计算出 MD5 值很容易.
+  抗修改性 : 对原数据进行任何改动,哪怕只修改一个字节,所得到的 MD5 值都有很大区别.
+  弱抗碰撞 : 已知原数据和其 MD5 值,想找到一个具有相同 MD5 值的数据(即伪造数据)是非常困难的.
+  强抗碰撞: 想找到两个不同数据,使他们具有相同的 MD5 值,是非常困难的
+应用：文件的校验，数字签名，安全访问认证
+
+
+AES
+AES,高级加密标准（英语：Advanced Encryption Standard，缩写：AES），在密码学中又称Rijndael加密法，是美国联邦政府采用的一种区块加密标准。这个标准用来替代原先的DES，已经被多方分析且广为全世界所使用
+
+属于对称加密算法
+
+特点：
+
+  AES加密数据块分组长度必须为128比特，密钥长度可以是128比特、192比特、256比特中的任意一个
+  私钥与公钥相同
+  强安全性
+  高性能、高效率、易用和灵活
+应用：密码加密，http数据的传输
+
+
+RSA
+
+RSA公钥加密算法，是目前最有影响力和最常用的公钥加密算法，它能够抵抗到目前为止已知的绝大多数密码攻击，目前为止只有短的RSA钥匙才可能被强力方式解破，是菲对称加密算法
+
+RSA算法基于一个十分简单的数论事实：将两个大质数相乘十分容易，但是想要对其乘积进行因式分解却极其困难，因此可以将乘积公开作为加密密钥,
+对于加密原理可以点击这里
+
+特点：
+
+  对于一个私钥，有且只有一个与之对应的公钥。生成者负责生成私钥和公钥，并保存私钥，公开公钥
+  强安全性，公钥是公开的，但不可能通过公钥反推出私钥，或者说极难反推，只能穷举，所以只要密钥足够长度，要通过穷举而得到私钥，几乎是不可能的
+  通过私钥加密的密文只能通过公钥解密，公钥加密的密文只有通过私钥解密
+应用：密码加密，http数据的传输
+
+
+</content>
+      <categories>
+        
+          <category> 加密安全 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 加密总结 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>崩溃日志分析></title>
+      <url>/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90/</url>
+      <content type="text">在开发过程中我们可以通过调试来查找修复BUG，APP上线之后或者APP不是安装在自己的真机上的时候我们就需要通过崩溃日志分析工具symbolicatecrash进行分析
+
+什么是symbolicatecrash？
+symbolicatecrash是Xcode自带的一个分析工具，可以通过机器上的崩溃日志和应用的.dSYM文件定位发生崩溃的位置，把crash日志中的一堆地址替换成代码相应位置
+
+我们可以通过命令符找到symbolicatecrash
+
+find /Applications/Xcode.app -name   symbolicatecrash -type f
+
+
+
+将crash信息同步到我们MAC中
+
+如果是其他用户并且是APP Store下的APP
+需要用户在’如何查看iphone上的崩溃日志’中，将《自动发送》开启，打开《与应用开发者共享》，这样用户的APP崩溃后，会提示发送崩溃日志到开发者，开发者就可以在iTunes Connect中下载这些崩溃日志。
+
+如果是手中的真机
+直接将iphone连接到iTunes,打开xcode-&amp;gt;window-&amp;gt;devices，导出你需要的崩溃日志即可
+
+
+
+分析崩溃日志
+第一步
+我们需要找到.app文件和.app.dSYM文件，在桌面创建一个crash文件夹，然后Xcode-&amp;gt;Window-&amp;gt;Organizer找到Archives找到App－&amp;gt;右击Show in Finder
+复制.app和.app.dSYM到crash夹文件：右击.xcarchive文件-&amp;gt;显示包内容 在dSYMs文件夹中找到.app.dSYM 在Products-&amp;gt;Applications文件夹中找到*.app
+第二步
+将symbolicatecrash拷贝到桌面的crash文件夹里面，与.app和.app.dSYM放一起
+第三步
+
+cd /Users/你的电脑名称/Desktop/cras
+
+export DEVELOPER_DIR=/Applications/XCode.app/Contents/Developer ./symbolicatecrash ./*.crash ./*.app.dSYM &amp;gt; symbol.crash
+
+
+
+将终端完成以后，在crash文件夹里面会多出一个文件Control_symbol.crash：这个就是最终的文件，可以查看bug所在的位置，如图:
+
+
+
+</content>
+      <categories>
+        
+          <category> 调试相关 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 调试 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>关于编程思想自己的一点总结></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/</url>
+      <content type="text">iOS 中常见的五种编程模式：
+
+
+  
+    链式编程
+  
+  函数式编程（Functional Programming FP）
+  面向对象编程(Object Oriented Programming OOP)
+  面向切面编程(Aspect Oriented Programming AOP)
+  响应式编程(Reactive Programming RP)
+
+
+面向对象编程
+
+相对于面向过程编程，世间万物皆“对象”，特点是继承，多态与封装。
+
+
+  其中多态是允许你将父对象设置成为一个或更多的他的子对象相等的技术，赋值之后，父对象就可以根据当前赋值给它的子对象的特性以不同的方式运作(允许将子类类型的指针赋值给父类类型的指针)
+
+
+这在OC中都可实现，所以OC是面向对象的语言，
+而在OC中只支持单一继承，若要实现多继承，需要使用代理模式。
+
+面向切面编程
+
+
+  面向切面编程是对面向对象的补充，就是在运行时动态的将代码切入到类的指定方法、指定位置上的编程方式（在不改变原有类的结构，来动态的为类添加代码片段）
+
+
+而OC作为动态语言，在运行时才会查找所需要的执行方法。声明通过不会报错，比如未初始化变量，未分配内存，不会报错。编译会通过，当运行时，调用变量的方法，会崩溃（这也说明了OC在运行期才检查对象的内存管理情况）
+
+所以我们可以利用OC中的Runtime的方法交换来实现AOP编程(关联对象与Method Swizzing)
+
+链式编程
+
+
+  链式编程将多个方法用点语法链接起来,让代码更加简洁, 可读性更强。原理是调用者的属性或者方法反回的是对象本身。这也是第三方库Masonry使用的编程方式（对象的方法或者属性返回值是Block，而Block的返回值是对象本身，这样就可以通过点语法无限调用函数）
+
+
+函数式编程
+
+
+  函数式编程面向数学的抽象，将计算描述为一种表达式求值，一句话，函数式程序就是一个表达式，属于“结构化编程”的一种，主要思想是把运算过程尽量写成一系列嵌套的函数调用。函数式编程通常与命令式编程相对立，命令式编程注重于逻辑过程，而函数式编程完全是函数或函数的组合(函数式编程关心数据的映射，命令式编程关心解决问题的步骤)
+
+
+在函数式编程中，函数是“一等公民”，拥有闭包和高阶函数，惰性计算，递归的特性。
+
+如我们要计算两个数的和与差：
+swift写法:
+func sum(a:Int, b:Int) -&amp;gt; Int {
+return a + b
+}
+func sub(a:Int, b:Int) -&amp;gt; Int {
+return a - b
+}
+
+sum（a,b）,sub(a,b)
+
+
+即可
+那么用函数式编程的思想：
+func operation(additon:(Int, Int) -&amp;gt; Int, a:Int,b:Int) -&amp;gt; Int {
+return additon(a,b)
+}
+operation(additon: sum, a: 6, b: 6)
+operation(additon: sub, a: 6, b: 6)
+这是高阶函数的特性，体现了把运算过程尽量写成一系列嵌套的函数调用的思想
+OC中的写法:
+- (int)sumOfa:(int)a b:(int)b{
+return a + b;
+}
+- (int)subOfa:(int)a b:(int)b{
+return a - b;
+}
+[self sumOfa:6 b:6],[self subOfa:6 b:6];
+
+
+即可
+那么用函数式编程的思想：
+- (int)anotherOfa:(int)a b:(int)b block:(int(^)(int a,int b))block{
+return block(a,b);
+}
+__weak typeof(self) weakself = self;
+[self anotherOfa:10 b:20 block:^int(int a, int b) {
+return [weakself sumOfa:a b:b];
+}];
+[self anotherOfa:10 b:20 block:^int(int a, int b) {
+return [weakself subOfa:a b:b];
+}];
+这里会出现循环引用因为self持有block，block中又引用self需要弱化self
+
+
+响应式编程
+
+
+  响应式编程是一种面向数据流和变化传播的编程范式。这意味着可以在编程语言中很方便地表达静态或动态的数据流，而相关的计算模型会自动将变化的值通过数据流进行传播。
+
+
+响应式它是依赖于事件的，响应式的代码它的运行不是按代码的顺序，而是跟多个按时间发生的事件有关。依赖的事件本质就是Block，但在响应式编程里，这些按时间排列的事件，被称为“流”
+
+在iOS中第三方ReactiveCocoa框架通过函数式编程的方式来实现响应式的编程，ReactiveCocoa通过创建信号，订阅信号，发送信号完成“流”，也就是使用大量的block通过函数之间的回调，实现响应。
+
+总结
+
+可以看出不论是响应式编程，函数式编程，链式编程还是面向切面试编程基础都为面向对象的编程，其中链式编程，响应式编程更多依赖于回调闭包的方式，函数式编程更多依赖于函数之间的调用，但不完全是依赖回调闭包（如递归），这些设计模式在开发中极为常见，学习了解这些思想在实际运用中灵活使用这些编程模式并与设计模式相互配合，将会事半功倍！
+
+PS：以上仅为个人见解，仅供学习与参考，若有不对的地方请指出，共同学习~
+</content>
+      <categories>
+        
+          <category> 基础知识点 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 编程 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>load与initialize></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/load%E4%B8%8Einitialize/</url>
+      <content type="text">load与initialize是Nsobject类实现初始化操作的两个方法
+
+load
+load方法是对于加入运行时期系统中每个类以及分类需要调用的方法，而且只会调用一次
+
+
+  
+    调用时机：程序启动的时候，包含类或分类程序载入系统时
+  
+  
+    特点：执行该方法的时候，运行期系统处于”脆弱状态”，在执行子类load方法之前，必定会先执行所有超类的方法，而这时如果代码还依赖了其它程序库，那么程序库里相关类的load方法也必定会先执行，但根据给定的程序库无法判断其中各个类的载入顺序，所以在load方法中使用其它类并不安全，而且load方法并不参与覆写机制
+
+    需要注意的是因为整个应用在执行load方法时都会阻塞，应尽量减少所执行的操作
+  
+  
+    应用：类的某些初始化操作（如：Method Swizzling需要写在load方法中）
+  
+
+
+initialize
+该方法会在程序首次用该类之前调用，且只调一次，所以它也属于viewcontroller生命周期的一部分，是类初始化前就调用的方法
+
+
+  
+    调用时机：程序首次用该类之前，运行期系统自动调用
+  
+  
+    特点：运行期系统在执行该方法时处于正常的状态，也就是所有的类或分类已经载入完毕。因此，在此方法中可以可以安全使用并调用任意类的方法，initialize方法参与覆写机制
+  
+  
+    应用：无法编译在编译期设定全局常量，可以放在intialize方法里初始化
+  
+
+
+</content>
+      <categories>
+        
+          <category> 基础知识点 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> initialize </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS静态库的制作></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS%E9%9D%99%E6%80%81%E5%BA%93%E7%9A%84%E5%88%B6%E4%BD%9C/</url>
+      <content type="text">平时开发需要用到许多的库，有开源的，如AFNetworking 、SDWebImage，这些都是非常有名的开源库。也有一些闭源的，如友盟分享等等。
+
+在平时开发中，可能几个公司合作一个项目，但又不想让另一个公司看到自己的源代码，怎么办。这时我们就可以制作自己的静态库。
+
+如何制作.a
+
+新建项目：选择cocoa touch static library
+
+
+
+把你需要制作静态库的源码添加到工程中
+
+
+
+选择你要公开的.h 文件,
+点击build Phases -&amp;gt;左边那个“+” -&amp;gt;new headers phases后将你要公开的.h 文件拖入到public 中
+
+编辑edit scheme,选择是release 还是debug
+
+
+
+然后选择真机或者模拟器
+command + B 编译
+编译完后会出现libprojectname.a 右键show in finder
+在目录中会看到
+
+
+
+我这里四个全部都编译了一次，有模拟器和真机。
+
+$ lipo -info libFDHandWrite.a Architectures in the fat file: libFDHandWrite.a are: armv7 arm64
+
+
+
+在终端中可以看到 armv7 arm64 表示这是真机编译出来的。
+
+$ lipo -info libFDHandWrite.a Architectures in the fat file: libFDHandWrite.a are: i386 x86_64
+
+
+
+可以看到真机和模拟器是明显不同的。
+
+要想在真机和模拟器中都能使用，那就要把两个.a 文件合并
+
+$ lipo -create Release-iphoneos/libFDHandWrite.a Release-iphonesimulator/libFDHandWrite.a -output libHandWrite_common.a
+
+
+
+将合并后的.a 文件拿到其他工程中就可以很方便的使用了，记得要连同些.h 文件一起拖进去。
+
+</content>
+      <categories>
+        
+          <category> 基础知识 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 静态库 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS开发中的线程操作总结></title>
+      <url>/%E5%A4%9A%E7%BA%BF%E7%A8%8B/2016/04/24/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E7%BA%BF%E7%A8%8B%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BB%93/</url>
+      <content type="text">进程与线程的区别
+
+进程是资源的分配单位，线程是CPU在进程内切换的单位，简单地说进程就是任务，一个执行程序，进程之间是相互独立的，而线程处于进程空间内、多个线程共享一定空间、多个线程可以同时进行，也就是进程包含线程。
+
+iOS中一个程序属于一个进程，是否能后台运行程序也就是是否能够进行多进程的切换。
+
+iOS中的线程
+
+iOS中有4中多线程方案，分别为：Ptheads，NSThread，GCD与NSOperation
+
+Ptheads
+
+Ptheads属于C语言框架的多线程处理方案，具有高度移植性，但在iOS开发中基本用不到。
+
+NSThread
+
+经过苹果封装后的，并且完全面向对象的，所以你可以直接操控线程对象，非常直观和方便，不过它的生命周期还是需要我们手动管理
+
+NSThread创建线程：
+NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(run:) object:nil];
+// 启动
+[thread start];
+
+
+或者
+[NSThread detachNewThreadSelector:@selector(run:) toTarget:self withObject:nil];
+
+
+如果需要获取当前线程
+[NSThread currentThread]
+
+
+GCD
+
+  GCD全名为Grand Central Dispatch(大中枢派发)是 Apple 开发的一个多核编程的较新的解决方法，它主要用于优化应用程序以支持多核处理器以及其他对称多处理系统，使用“词法闭包”可以将代码像对象一样传递
+具有多核并行运算，自动利用多核CPU，自动管理线程生命周期的特点。
+
+
+任务
+
+线程中执行的代码块，在GCD中任务是放在Block中执行的
+执行任务的方式拥有同步与异步两种方式。
+
+同步（sync)任务能够阻塞当前线程，同时不具备开辟线程的能力
+
+异步（async）任务不会阻塞当前线程，具备开辟线程的能力，但并不是异步就能开辟线程，这一点非常重要（如：在异步方式在主线程中执行）
+//异步方式在主线程中执行
+dispatch_async(dispatch_get_main_queue(), ^{
+NSLog(@&quot;在当前主线程中执行&quot;);
+});
+
+// 同步任务
+dispatch_sync(queue, ^{
+// 这里放同步执行任务代码
+});
+// 异步任务
+dispatch_async(queue, ^{
+// 这里放异步执行任务代码
+});
+
+
+这里的queue则为需要传入的队列
+
+队列
+
+队列相对于同步与异步执行方式而言的，用于存放任务，分为串行队列，并发队列。
+
+串行队列（Serial Dispatch Queue）遵循先进先出的原则（FIFO）即新任务总是被插入到队列的末尾，而读取任务的时候总是从队列的头部开始读取。
+
+并发队列（Concurrent Dispatch Queue）同样遵循先进先出的原则，不过并发队列可以让多个任务并发（同时）执行
+
+全局队列与主队列
+
+全局队列是相对于并发队列而言的，在并发队列中GCD 默认提供了全局并发队列（Global Dispatch Queue）
+
+主队列是相对于串行队列而言的，在串行队列中GCD 提供了的一种特殊的串行队列：主队列（Main Dispatch Queue）
+
+创建队列
+//串行队列
+dispatch_queue_t searilQueue = dispatch_queue_create(&quot;searilQueue&quot;, DISPATCH_QUEUE_SERIAL);
+//并发队列
+dispatch_queue_t concurrentQueue = dispatch_queue_create(&quot;concurrentQueue&quot;, DISPATCH_QUEUE_CONCURRENT);
+//全局队列
+dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+//主队列
+dispatch_get_main_queue()
+
+
+串行队列与并发队列通过dispatch_queue_create()创建，需要传入两个参数，第一个参数表示队列的唯一标识符，可为空；第二个参数用来识别是串行队列还是并发队列。其中DISPATCH_QUEUE_SERIAL 表示串行队列，DISPATCH_QUEUE_CONCURRENT 表示并发队列
+
+全局队列通过dispatch_get_global_queue()创建,需要传入两个参数，第一个为队列优先级；第二个直接传0即可。其中队列优先级分为:
+#define DISPATCH_QUEUE_PRIORITY_HIGH 2  (高优先级)
+#define DISPATCH_QUEUE_PRIORITY_DEFAULT 0 （默认优先级）
+#define DISPATCH_QUEUE_PRIORITY_LOW (-2) （低优先级）
+#define DISPATCH_QUEUE_PRIORITY_BACKGROUND INT16_MIN （后台）
+
+
+在使用的时候一般传入DISPATCH_QUEUE_PRIORITY_DEFAULT即可
+
+任务与队列组合
+
+当同步异步与串行并行队列组合时会有8种不同的组合方式：
+
+
+  同步串行队列
+  同步并发队列
+  异步串行队列
+  异步并发队列
+  同步主队列 (会导致线程死锁)
+  异步主队列
+  同步全局队列
+  异步全局队列
+
+
+这几种组合的区别：
+
+
+
+当然GCD的使用不是简单地这么几种，还有组队列，信号量与栏栅操作等，所有这些操作的使用可以点击这里查看用法
+
+NSOperation
+
+  NSOperation是苹果最早提供给开发者使用的一套多线程解决方案，是基于GCD更高一层的封装，但是比GCD更简单易用、代码可读性也更高
+
+
+NSOperation是个抽象类，并不能封装任务，它拥有三个子类NSInvocationOperation，NSBlockOperation以及定义继承自NSOperation的子类，我们可以使用这三个子类进行任务的封装，定义继承自NSOperation的子类的方式并不经常使用这里就不再讲述
+NSInvocationOperation
+// 创建NSInvocationOperation对象
+NSInvocationOperation *op = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(run) object:nil];
+[op start];
+
+NSBlockOperation
+/ 创建NSBlockOperation对象
+NSBlockOperation *op = [NSBlockOperation blockOperationWithBlock:^{
+// 在主线程
+NSLog(@&quot;------%@&quot;, [NSThread currentThread]);
+}];
+[op start];
+
+
+需要注意的是NSBlockOperation 还有一个方法：addExecutionBlock: ，通过这个方法可以给 Operation 添加多个执行 Block，这样 Operation 中的任务 会并发执行，它会 在主线程和其它的多个线程 执行这些任务：
+NSBlockOperation * blockOperation = [[NSBlockOperation
+blockOperationWithBlock:^{
+NSLog(@&quot;1在第%@个线程&quot;,[NSThread currentThread]);
+}];
+[blockOperation addExecutionBlock:^{
+NSLog(@&quot;2在第%@个线程&quot;,[NSThread currentThread]);
+}];
+[blockOperation addExecutionBlock:^{
+NSLog(@&quot;3在第%@个线程&quot;,[NSThread currentThread]);
+}];
+
+
+除此之外NSOperation还可以为线程添加依赖关系，设置最大并发数来控制线程，可以对线程进行取消与挂起的操作。
+
+其中线程添加依赖关系GCD中没有封装好的方法，实现起来较为复杂（需要信号量加锁控制），同时GCD也没有对线程取消的功能，这在NSOperation中都可以实现，具体用法可以点击这里
+
+</content>
+      <categories>
+        
+          <category> 多线程 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 多线程 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS应用生命周期总结></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/iOS%E5%BA%94%E7%94%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%80%BB%E7%BB%93/</url>
+      <content type="text">应用生命周期
+
+应用的生命周期是以我们点击APP图标之后，从开始到终止（退出）过程中所维护的状态
+
+当我们点击图标之后，应用以main函数为入口，设置AppDelegate称为函数的代理,接着同时启动主线程的RunLoop（主线程RunLoop默认启动将一直存在，它是维持程序生命周期的基本，实质是特殊的do-while循环，直到程序结束，APP退出，循环结束，关于更多RunLoop的知识可以查看这篇文章），APPDelegate类在应用生命周期的不同阶段会调用不同的方法，具体过程如图所示：
+
+
+
+在此过程中，iOS应用会维持5种状态：
+
+
+  Not Running（非运行状态）:应用没有运行或被系统终止
+  Inactive（前台非活动状态）：应用正在进入前台的状态，但还不能接受事件的处理
+  Active(前台活动状态)：应用进入前台状态，可以接受事件处理
+  Background（后台状态）：应用进入后台后，依然能够执行代码，执行完毕后应用立即进入挂起状态
+  Suspended（挂起状态）：处于挂起的应用进入一种“冷冻”状态，不能执行代码，如果系统内存不足应用会被终止
+
+
+
+
+代理方法
+
+每种状态的跃迁，都会回调APPDlegate的代理方法，在应用的生命周期中会用到很多方法和通知，以下几种最为常见：
+
+
+  
+    application:didFinishLaunchingWithOptions 对应于UIApplicationDidFinishLaunchingNotification的本地通知,程序启动并进行初始化调用该方法并发出通知，这个阶段会实例化根视图控制器
+  
+  
+    applicationDidBecomeActive对应于UIApplicationDidFinishLaunchingNotification的本地通知,应用处于前台非活跃状态时调用该方法并发出通知，这个阶段可以恢复UI的状态
+  
+  
+    applicationWillResignActive对应于UIApplicationWillResignActiveNotification的本地通知,应用将要失去Active状态时调用该方法并发出通知，比如有电话进来或者按下Home键，之后程序进入后台状态
+  
+  
+    applicationDidEnterBackground对应于UIApplicationDidEnterBackgroundNotification的本地通知,应用进入后台时调用该方法并发出通知，这个阶段可以保存用户数据，释放数据库资源
+  
+  
+    applicationWillEnterForeground对应于UIApplicationWillEnterForegroundNotification的本地通知,应用进入前台但还处于活跃状态时调用该方法并发出通知，这个阶段可以恢复用户数据
+  
+  
+    applicationWillTerminate对应于UIApplicationWillTerminateNotification的本地通知,应用被终止时调用该方法并发出通知，这个阶段可以保存用户数据，释放数据库资源
+  
+
+
+UIViewController 的生命周期
+// 非storyBoard(xib或非xib)都走这个方法(注意: 不要在这里做View相关操作，View在loadView方法中才初始化)
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+
+}
+return self;
+}
+// 如果连接了串联图storyBoard 走这个方法(init方法和initCoder方法相似，只是被调用的环境不一样，如果用代码进行初始化，会调用init，从nib文件或者归档进行初始化，会调用initCoder)
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+if (self = [super initWithCoder:aDecoder]) {
+
+}
+return self
+}
+// xib 加载 完成
+- (void)awakeFromNib {
+[super awakeFromNib];
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+}
+// 加载视图(默认从nib,loadView方法是开始加载视图的起始方法，除非手动调用，否则在ViewController的生命周期中没特殊情况只会被调用一次,需要重写loadView方法的时候，不要调用父类的方法)
+- (void)loadView {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+self.view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+self.view.backgroundColor = [UIColor redColor];
+}
+//视图控制器中的视图加载完成，viewController自带的view加载完成
+- (void)viewDidLoad {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidLoad];
+}
+//视图将要出现(这个方法中完成任何与视图显示相关的任务，例如改变视图方向、状态栏方向、视图显示样式等)
+- (void)viewWillAppear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewWillAppear:animated];
+}
+// view 即将布局其 Subviews(view的bounds改变了,要调整Subviews的位置，在调整之前要做的一些工作就可以在该方法中实现,如状态栏从不显示到显示，视图方向变化)
+- (void)viewWillLayoutSubviews {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewWillLayoutSubviews];
+}
+// view 已经布局其 Subviews(view的bounds改变了,已经调整Subviews的位置，在调整完成之后要做的一些工作就可以在该方法中实现)
+- (void)viewDidLayoutSubviews {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidLayoutSubviews];
+}
+//视图已经出现(这个方法中执行视图显示相关附件任务)
+- (void)viewDidAppear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidAppear:animated];
+}
+//视图将要消失(视图将被从屏幕上移除之前执行,view即将从superView中移除且移除动画切换之前，此时还没有调用removeFromSuperview)
+- (void)viewWillDisappear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewWillDisappear:animated];
+}
+//视图已经消失(视图已经被从屏幕上移除，用户看不到这个视图了,view从superView中移除，移除动画切换之后调用，此时已调用removeFromSuperview)
+- (void)viewDidDisappear:(BOOL)animated {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super viewDidDisappear:animated];
+}
+//出现内存警告  (模拟内存警告:点击模拟器-&amp;gt;hardware-&amp;gt; Simulate Memory Warning)
+- (void)didReceiveMemoryWarning {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+[super didReceiveMemoryWarning];
+}
+// 视图被销毁(viewController被释放时调用。视图view被销毁，此处需要对你在init和viewDidLoad中创建的对象进行释放，如定时器与通知的移除)
+- (void)dealloc {
+NSLog(@&quot;%s&quot;, __FUNCTION__);
+}
+
+
+
+严格意义说一个ViewController完整的声明周期还应该包括initialize这个方法，这个方法经常与load作为面试题来问，而了解这两个方法的调用时机也很重要，关于这两个方法的介绍，可以点击这里
+
+</content>
+      <categories>
+        
+          <category> 基础知识点 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> life cycle </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS单元测试></title>
+      <url>/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/iOS%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</url>
+      <content type="text">我们经常说模块拆分与封装可以降低耦合，而低耦合的业务逻辑能够方便单元测试，那么什么在iOS开发中我们怎样进行单元测试呢？首先我们需要了解单元测试的概念
+
+单元测试
+
+
+  单元测试（英语：Unit Testing）又称为模块测试, 是针对程序模块的最小单位来进行正确性检验的测试工作。程序单元是应用的最小可测试部件。在过程化编程中，一个单元就是单个程序、函数、过程等；对于面向对象编程，最小单元就是方法，包括基类（超类）、抽象类、或者派生类（子类）中的方法
+
+
+TestDemoTests与TestDemoUITests
+
+在iOS开发中，Xcode已经集成单元测试的功能，当我们新建文件的时候，除了项目文件夹之外还会有TestDemoTests与TestDemoUITests两个文件夹，这两个文件夹包含的内容分别为方法测试与UI测试
+
+
+
+打开其中的TestDemoTests文件夹，点开TestDemoTests.m类，会有以下四个方法：
+
+
+
+测试
+
+要进行测试，我们需要有被测试的方法，这里我们新建一个类ValidManager，里面包含有判断输入是否为手机号的方法
+
+
+
+我们测试这个方法就需要在TestDemoTests创建测试类（也可以使用初始的模板），这个类继承于XCTestCase：
+
+
+
+然后导入需要测试的类，进行初始化，添加测试方法testMobile，注意所有的方法都需要以test开头，表明这是一个测试的方法，然后添加需要的断言进行测试，因为是BOOL类型的判断，我们添加测试成功的断言XCTAssertTrue
+可以进行测试的方法，左边都会有一个菱形按钮，需要测试时我们只需要点击菱形测试按钮即可，当我们需要测试的方法通过的时候，左边的菱形会变成绿色的对号，测试成功，如图：
+
+
+
+这里可以看到，我们的测试已经成功，如果测试失败，左边则会出现红色差号，并提示那个方法没有测试通过
+
+
+
+如果我们需要对一个方法进行时间的测试，则需要在testPerformanceExample方法measureBlock块中，添加需要测试的方法即可
+
+
+
+可以看到验证手机号的方法，使用了0.001秒，我们可以点开左边灰色菱形按钮
+
+
+
+这里是测试时间的一些参数，点击Edit可以修改BaseLine时间基线与MAX STDDEV最大浮动，当我们测试时间的时间，在BaseLine的MAX STDDEV范围内时，测试才会有效
+
+</content>
+      <categories>
+        
+          <category> 测试相关 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 测试 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS动画与绘图需要了解的点></title>
+      <url>/ui/2016/04/24/iOS%E5%8A%A8%E7%94%BB%E4%B8%8E%E7%BB%98%E5%9B%BE%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E7%82%B9/</url>
+      <content type="text">动画
+
+动画分为UIView动画（视图动画），CATransation（隐式动画），CAanimation（显式动画），CGAffineTransform（二维动画），CATransform3D(三维动画)
+
+其中UIView动画属于UIKit框架的UIView类，CATransation继承于CAanimation属于QuartzCore框架；CATransform3D也属于QuartzCore框架是一个C的结构体；CGAffineTransform属于CoreGraphics框架是一个C的结构体，CoreGraphics是一套C语言绘图框架，具有很强的移植性
+
+视图动画
+UIView动画（包含弹性动画 iOS 8.0后)
+
+隐式动画
+需要把属性绑定到原子事务CATransation通过CATransation begin 与CATransation commit进行开始与提交动画,隐式动画通过CAanimation实现的，所以所有的隐式动画可以做到的显式动画都可以
+
+显式动画
+CAanimation类管理重复动画，控制时间和步调，能够设定到图层过渡
+
+CAanimation常见的子类（CABasicAnimation与CAKeyframeAnimation并不是直接继承自CAanimation，而是继承自CAPropertyAnimation，CAPropertyAnimation继承自CAanimation，CASpringAnimation则继承自CABasicAnimation）：
+
+
+  
+    CABasicAnimation （基础动画）
+  
+  CAKeyframeAnimation （关键帧动画，可以设置多个路径）
+  CAAnimationGroup （动画组支持多个动画并发执行）
+  
+    CASpringAnimation（弹性动画 iOS 9.0后）
+  
+  
+    二维动画：CGAffineTransform (平移，缩放，旋转和倾斜)
+  
+  三维动画：CATransform3D (实现3D立体效果)
+
+
+绘图
+
+iOS可以通过Core Graphic与UIBezierPath(UIKit类)进行绘图。当我们需要绘图到根层上时(UIView的绘图)，需要在drawRect:方法中绘制；如果是自定义的layer（如：CAShapeLayer）可以在其它地方绘图将path赋值给layer的path，具体使用情况可以根据需要灵活使用。
+
+需要注意的是drawRect的方法属于Core Graphic框架，占用CPU消耗内存较大；而自定义的layer属于QuartzCore框架，通过GPU渲染图层，不消耗内存
+
+UIView的属性layer是专门管理图像绘制与动画的图层。其中UIView继承自UIResponder，而UIView的属性layer属于CALayer类，CALayer继承自NSObject，所以UIView与CALayer类本质上的区别是，CALayer类无法响应事件。需要注意的UIView属于UIKit框架而CALayer属于QuartzCore框架。
+
+CALayer拥有以下几个常见的子类：
+
+
+  
+    CAEmitterLayer （发射器层，用来控制粒子效果）
+  
+  CAGradientLayer （梯度层，颜色渐变）
+  CAEAGLayer （用OpenGL ES绘制的层）
+  CAReplicationLayer （用来自动复制sublayer）
+  CAScrollLayer （用来管理可滑动的区域）
+  CAShapeLayer （绘制立体的贝塞尔曲线）
+  CATextLayer （可以绘制AttributeString）
+  CATiledLayer （用来管理一副可以被分割的大图）
+  CATransformLayer （用来渲染3D layer的层次结构）
+
+
+Core Graphic图形上下文CGContextRef绘图包括获取上下文，添加点绘图，设置上下文，渲染上下文，关闭路径
+参考链接:
+http://blog.csdn.net/ssirreplaceable/article/details/52974023 核心绘图——Core Graphics
+http://www.cocoachina.com/ios/20150616/12171.html 弹性动画
+https://www.cnblogs.com/chrisbin/p/6391933.html?utm_source=itdadao&amp;amp;utm_medium=referral DrawRect与CAShapeLayer的对比
+</content>
+      <categories>
+        
+          <category> UI </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 动画 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS三种定时器></title>
+      <url>/ui/2016/04/24/iOS%E4%B8%89%E7%A7%8D%E5%AE%9A%E6%97%B6%E5%99%A8/</url>
+      <content type="text">在iOS开发中定时器的实现总共有三种方式：NSTimer，CADisplayLink与GCD.
+
+NSTimer
+
+NSTimer使我们经常用到一种定时器，是一个能在从现在开始的后面的某一个时刻或者周期性的执行定时器对象。
+
+NSTimer的创建有以下六种方法：
+//普通方式
+[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(action) userInfo:nil repeats:YES];
+//Block的方式(ios 10.0后)
+[NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
+
+}];
+//NSInvocation的方式(不常用)
+NSInvocation* invocation = [NSInvocation invocationWithMethodSignature:[[self class] instanceMethodSignatureForSelector:@selector(action)]];
+[invocation setTarget:self];
+[invocation setSelector:action];
+[NSTimer scheduledTimerWithTimeInterval:1.0 invocation:invocation repeats:YES];
+
+
+userInfo:可以写一些标识信息,target : 需要执行方法的对象,selector : 需要执行的方法,repeats : 是否需要循环(当为YES的时候可以重复执行，直到手动销毁，NO的时候只执行一次),NSInvocation的MethodSignature需要传入类对象
+
+这三种方式创建的定时器不用加入到RunLoop，是由于系统已经将其加入到了默认的RunLoop中，而且这三种定时器创建后就会启动
+//普通方式
+NSTimer *timer = [NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(action) userInfo:nil repeats:YES];
+[[NSRunLoop mainRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+//Block方式(ios 10.0后)
+NSTimer *timer = [NSTimer timerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
+}];
+[[NSRunLoop mainRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+//NSInvocation的方式(不常用)
+NSInvocation* invocation = [NSInvocation invocationWithMethodSignature:[[self class] instanceMethodSignatureForSelector:@selector(action)]];
+[invocation setTarget:self];
+[invocation setSelector:action];
+NSTimer* timer = [NSTimer timerWithTimeInterval:1.0 invocation:invocation repeats:YES];
+[[NSRunLoop mainRunLoop]addTimer:timer forMode:NSDefaultRunLoopMode];
+
+
+其中RunLoopMode常用的有三种模式：
+
+
+  
+    NSDefaultRunLoopMode （默认模式中几乎包含了所有输入源(NSConnection除外),一般情况下应使用此模式）
+  
+  
+    UITrackingRunLoopMode （在拖动loop或其他user interface tracking loops时处于此种模式下，在此模式下会限制输入事件的处理。如：当手指按住UITableView拖动时就会处于此模式）
+  
+  
+    NSRunLoopCommonModes （这是一个伪模式，其为一组run loop mode的集合，将输入源加入此模式意味着在Common Modes中包含的所有模式下都可以处理,默认情况下Common Modes包含default modes,modal ,event Tracking modes。轮播与UITableView组合时经常用到）
+  
+
+
+这种三种方式创建的定时器都需要我们自己去加入到RunLoop中，不然定时器无法启动
+停止定时器的方法：
+[timer setFireDate:[NSDate distantFuture]];
+开始定时器的方法：
+[timer setFireDate:[NSDate distantPast]];
+
+
+因为加入到了RunLoop中，创建的定时器需要我们手动释放在合适的时机调用：
+[timer invalidate]; (通常在viewDidDisappear调用)
+
+
+NSTimer并不是准时触发的，如果你添加了一个timer指定2秒后触发某一个事件，但是正好那个时候当前线程在执行一个连续运算(例如大数据块的处理等)，这个时候timer就会延迟到该连续运算执行完以后才会执行。如果延迟超过了一个周期，则会和后面的触发进行合并，即在一个周期内只会触发一次
+
+CADisplayLink
+
+CADisplaylink 是一个计时器对象，可以使用这个对象来保持应用中的绘制与显示刷新的同步，要让屏幕显示的内容变化，需要以一定的频率刷新这些像素点的颜色值，系统会在每次刷新时触发 CADisplaylink，iOS设备的刷新频率事60HZ也就是每秒60次
+CADisplayLink的创建:
+
+CADisplayLink *displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(action)];
+[displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+
+
+target : 需要执行方法的对象，selector : 需要执行的方法
+停止定时器的方法：
+[displayLink setPaused:YES];
+开始定时器的方法：
+[displayLink setPaused:NO];
+
+
+CADisplayLink同样需要手动释放：
+[displayLink invalidate];(通常在viewDidDisappear调用)
+
+
+
+默认情况下CADisplayLink每刷新一次（一帧），调用一次 selector，iOS设备的刷新频率事60HZ也就是每秒60次。那么每一次刷新的时间就是1/60秒 大概16.7毫秒
+CADisplayLink拥有以下属性：
+
+
+  timestamp （屏幕显示的上一帧的时间戳，只读）
+  duration （每帧之间的间隔，只读）
+  frameInterval （设置调用一次selector方法之间的间隔帧数，读写，默认为1帧）
+我们可以通过 CADisplayLink 对象的属性 duration、frameInterval 和 timestamp 获取帧率和时间信息，也可以通过设置 frameInterval 来定时触发
+
+
+CADisplayLink每当屏幕刷新一次就会调用一次selector，是精确触发，但是，因为屏幕刷新并不是一成不变的每秒60帧，所以每秒调用固定次数的说法并不正确
+
+GCD
+
+GCD可以通过两种方式dispatch_after与dispatch_source_set_timer实现定时器
+//只调用一次,通过`delayInSeconds`传入时间，单位为秒
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+
+});
+//dispatch_source_set_timer方式
+dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+
+dispatch_source_t timerSource = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
+//设置时间允许0纳秒偏差
+dispatch_source_set_timer(timerSource, DISPATCH_TIME_NOW, 1*NSEC_PER_SEC, 0);
+__block NSInteger time = 10;
+dispatch_source_set_event_handler(timerSource, ^{
+if (time&amp;lt;=0) {
+//取消方法
+dispatch_source_cancel(timerSource);
+}else{
+NSLog(@&quot;%ld&quot;,time);
+time = time-1;
+dispatch_async(dispatch_get_main_ queue(), ^{
+//回到主线程做事情
+});
+}
+});
+
+dispatch_source_set_cancel_handler(timerSource, ^{
+NSLog(@&quot;结束&quot;);
+});
+//执行方法，否则不会运行
+dispatch_resume(timerSource);
+
+
+上面为每秒触发一次的定时器，10秒之后停止
+//停止的方法：
+dispatch_source_cancel(timerSource);
+//执行方法：
+dispatch_resume(timerSource);
+
+
+GCD方式实现的定时器是基于分排队，而不是像定时器一样基于运行循环，所以它不需要加到RunLoop中，其中dispatch_after只能执行一次，而且是在你设定时间将任务添加进去的方式，使用纳秒计算的方式也是为了机器需要
+
+NSTimer可以满足大多数的需求，CADisplayLink更偏重于绘图，GCD方式写法更复杂，但却足够精确，选取哪种方式实现可以根据需求实现
+</content>
+      <categories>
+        
+          <category> UI </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 定时器 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>iOS 静态库和动态库></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/2016/04/24/iOS-%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/</url>
+      <content type="text">库的概念
+
+
+  库就是程序代码的集合，将N个文件组织起来，是共享程序代码的一种方式。库从本质上来说是一种可执行代码的二进制格式，可以被载入内存中执行。
+
+
+库的分类
+
+开源库：源代码是公开的，可以看到每个实现文件（.m文件）的实现，例如GitHub上的常用的开源库：AFNetworking、SDWebImage等；
+
+闭源库：不公开源代码，是经过编译后的二进制文件，看不到具体的实现。闭源库又分为：静态库 和 动态库
+
+动态库与静态库
+
+静态库：以.a 和 .framework为文件后缀名
+
+动态库：以.tbd(之前叫.dylib) 和 .framework 为文件后缀名
+
+iOS中静态库与动态库本质上的区别是相对于编译期与运行期而言的，静态库在程序编译时会被链接到目标代码中，程序运行时将不再需要改静态库，而动态库在程序编译时不会链接到目标代码中，只是在程序运行时才载入
+我们所添加的动态库与静态库都存在于Build Phases Link Binary With Libraries中：
+
+
+
+使用静态库最大好处是避免了少量的改动经常导致大量的重复的编译链接，提高了代码的复用及核心技术的保密程度，而使用动态库最大的好处为体积小，多个应用程序共享内存中得同一份库文件，节省资源，可以不重新编译连接可执行程序的前提下，更新动态库文件达到更新应用程序的目的
+
+iOS8之后苹果允许开发者有条件的创建和使用动态库的框架，这种框架叫做 Cocoa Touch Framework。虽然同样是动态框架，但是和系统 framework 不同，app 中使用 Cocoa Touch Framework制作的动态库 在打包和提交 app 时会被放到 app main bundle 的根目录中，运行在沙盒里，而不是系统中
+
+不过要注意的是虽然苹果开放了自定义framework动态库，但是由于动态库具有动态更新的功能，这与apple store的审核制度相冲突，所以含有自定义的framework的app可能无法在商店上架的（有些开发者使用framework可以上架）
+
+Mach-o
+
+
+
+Mach-o为Mach Object文件格式的缩写，它是一种用于可执行文件，目标代码，动态库，内核转储的文件格式。作为a.out格式的替代，Mach-o提供了更强的扩展性，并提升了符号表中信息的访问速度。
+
+注意在制作framework的时候需要选择这个 Mach-O Type，static为静态，Dynamic为动态
+
+</content>
+      <categories>
+        
+          <category> 基础知识 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> 库 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>Swift与OC混编></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/Swift%E4%B8%8EOC%E6%B7%B7%E7%BC%96/</url>
       <content type="text">
-  NexT is a high quality elegant Jekyll theme ported from Hexo Next. It is crafted from scratch, with love.
-
-
-
-
-Live Preview
-
-Screenshots
-
-
   
-    Desktop
-
+    iOS 8.0以后引入
   
-  
-    Sidebar
-  
+  会自动创建OC-SwiftDemo-Bridging-Header.h
+  Swfit引用OC在OC-SwiftDemo-Bridging-Header.h中import
+  可以通过genareate interface进行OC转Swift查看
+  OC引用Swift需要配置：
 
 
 
 
 
-  Sidebar (Post details page)
+  在OC中#import “test-Swift.h”即可引入所有的Swift文件
 
 
+注意：
 
+Objective-C类、协议、属性、方法、扩展、闭包等所有功能都可以无缝地被转换为Swift接口被Swift文件所调用。Objective-C中为了兼容 Swift，新增了三大特性Nullability、Lightweight Generics、__kindof
 
 
-  Mobile
 
+Objective-C调用Swift
+Xcode会自动为Project生成头文件以便在Objective-C中调用。
 
+在Objective-C类中调用Swift，只需要#import &quot;productModuleName-Swift.h&quot;即可调用，Xcode提供的头文件以Swift代码的模块名加上-Swift.h为命名。 在这个头文件中，将包含Swift提供给Objective-C的所有接口、Appdelegate及自动生成的一些宏定义。
 
+注意:
+productModuleName-Swift.h在Xcode中是无法搜索查看的，只能从import中点击进去查看。
 
-Installation
-
-Check whether you have Ruby 2.1.0 or higher installed:
-
-ruby --version
-
-
-
-Install Bundler:
-
-gem install bundler
-
-
-
-Clone Jacman theme:
-
-git clone https://github.com/Simpleyyt/jekyll-theme-next.git
-cd jekyll-theme-next
-
-
-
-Install Jekyll and other dependencies from the GitHub Pages gem:
-
-bundle install
-
-
-
-Run your Jekyll site locally:
-
-bundle exec jekyll server
-
-
-
-More Details：Setting up your GitHub Pages site locally with Jekyll
-
-Features
-
-Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese.
-
-Default language is English.
-
-language: en
-# language: zh-Hans
-# language: fr-FR
-# language: zh-hk
-# language: zh-tw
-# language: ru
-# language: de
-
-
-
-Set language field as following in site _config.yml to change to Chinese.
-
-language: zh-Hans
-
-
-
-Comment support.
-
-NexT has native support for DuoShuo and Disqus comment systems.
-
-Add the following snippets to your _config.yml:
-
-duoshuo:
-  enable: true
-  shortname: your-duoshuo-shortname
-
-
-
-OR
-
-disqus_shortname: your-disqus-shortname
-
-
-
-Social Media
-
-NexT can automatically add links to your Social Media accounts:
-
-social:
-  GitHub: your-github-url
-  Twitter: your-twitter-url
-  Weibo: your-weibo-url
-  DouBan: your-douban-url
-  ZhiHu: your-zhihu-url
-
-
-
-Feed link.
-
-
-  Show a feed link.
-
-
-Set rss field in theme’s _config.yml, as the following value:
-
-
-  rss: false will totally disable feed link.
-  
-    rss:   use sites’ feed link. This is the default option.
-
-    Follow the installation instruction in the plugin’s README. After the configuration is done for this plugin, the feed link is ready too.
-  
-  rss: http://your-feed-url set specific feed link.
-
-
-Up to 5 code highlight themes built-in.
-
-NexT uses Tomorrow Theme with 5 themes for you to choose from.
-Next use normal by default. Have a preview about normal and night:
-
-
-
-
-Head over to Tomorrow Theme for more details.
-
-Configuration
-
-NexT comes with few configurations.
-
-
-# Menu configuration.
-menu:
-  home: /
-  archives: /archives
-
-# Favicon
-favicon: /favicon.ico
-
-# Avatar (put the image into next/source/images/)
-# can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)
-avatar: /default_avatar.png
-
-# Code highlight theme
-# available: normal | night | night eighties | night blue | night bright
-highlight_theme: normal
-
-# Fancybox for image gallery
-fancybox: true
-
-# Specify the date when the site was setup
-since: 2013
-
-
-
-
-Browser support
-
-
+在大部分情况下，Objective-C都可以无缝地调用Swift，但是由于Swift相对于Objective-C多了一些新特性，比如泛型、元组、枚举等，所以Swift暴漏给Objective-C的接口多了一些限制，因此Swift只能暴露在Objective-C中有效的接口。
 </content>
       <categories>
         
-          <category> tutorial </category>
+          <category> 基础知识点 </category>
         
       </categories>
       <tags>
+        
+          <tag> 混编 </tag>
         
       </tags>
       <tags></tags>
     </entry>
   
     <entry>
-      <title>Highlight Test></title>
-      <url>/test/2017/07/19/highlight-test/</url>
-      <content type="text">This is a highlight test.
+      <title>MVC与MVVM的理解></title>
+      <url>/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/2016/04/24/MVC%E4%B8%8EMVVM%E7%9A%84%E7%90%86%E8%A7%A3/</url>
+      <content type="text">MVC
 
-Normal block
+其实iOS的MVC感觉并不是经典的MVC模式，查阅很多的资料，经典的MVC是对于Web端来提出的，模型，视图，控制器之间都是单向传递数据引用，控制器只是负责业务逻辑。
 
-alert('Hello World!');
+而iOS中控制器本身也能够创建视图，同时视图必须添加到控制器中，UITableview就是很好的例子，这样控制器就不单单是业务逻辑的处理，它与View就像连体的兄弟，同穿一条裤子一样……
 
+更像是MVP这样的模式，View与Presenter紧密相连… View 与 Model 不发生联系，都通过 Presenter 传递。View 非常薄，不部署任何业务逻辑，称为”被动视图”（Passive View），即没有任何主动性，而 Presenter非常厚，所有逻辑都部署在那里
+…
 
-
-print 'helloworld'
-
-
-
-Highlight block
-
-alert( 'Hello, world!' );
+直到看了一篇博文，引用了斯坦福大学公开课程中的一张图:
 
 
 
-print 'helloworld'
+恍然大悟，这才是真正的iOS MVC 的正确理解(毕竟在xcode中是Controller)
+
+大致的意思是
+Controller可以和Model通信，也可以和View进行通信。而Controller和Model的关系，绿色的箭头代表Controller可以直接进行对Model进行访问，也就是说Model对于Controller来说就是透明的。如果Model发生了变化，那么就通过Notification和KVO的方式传递给Controller。同样的Controller和View之间也是这种关系，View对Controller来说就是 透明的。Controller可以直接根据Model决定View的展示。View如果接受响应事件则通过delegate，target-action，block等方式告诉Controller的状态变化。Controller进行业务的处理，然后再控制View的控制器中展示。
+
+简单的说， 控制器不仅需要处理业务逻辑，视图的处理也在控制器中，同时还与数据模型交互 ，显然这样的处理方式会导致控制器臃肿，耦合度高，模块不易复用，同时代码的可读性降低，这样并不好，于是iOS的MVVM就诞生了
+
+MVVM
 
 
 
-def foo
-  puts 'foo'
-end
+与经典的MVVM也不相同，经典的MVVM是没有控制器的概念，只是数据的流向发生了改变， 它采用的是双向绑定，View的变动自动反映在VM(VM将指ViewModel)，反之亦然。
+
+而iOS的MVVM中还有一个控制器，所以这样就是iOS特色MVVM
+
+VM处理业务逻辑，Model与VM交互，VM与控制器交互，控制器与视图可以紧密相连。这样的写法可以看到，逻辑更加清晰，耦合度降低，模块复用性提高，编写测试也方便，控制器也进行了极大的减负，很棒！
+
+但是缺点也是明显，每个控制器都需要VM，控制器与Model的交互变为控制器与VM交互，VM与Model的交互，代码量会增加，逻辑性需要更加的严谨，写起来也会慢一些，调试的话也会增加bug查找的难度
+
+因为模块独立，所以两种设计模式(不是框架结构，架构是一个整体，涵盖项目方方面面)可以独立来写，控制器之间交互性低的地方，VM处理逻辑写法会简单些，可以考虑用MVVM，模块较为复杂控制器之间交互性强的地方，真的需要慢慢写了(之前想改个项目，主控制器逻辑太复杂，耦合性太高，不好剥离，最终只是写了请求部分逻辑剥离)
+
+一点RAC与MVVM的理解
+
+关于RAC
+
+  ReactiveCocoa(简称RAC),是GitHub上开源的一个应用于iOS和OS X开发的一个新框架.RAC具有函数式编程和响应者编程的特性.
 
 
+一个完整RAC“流”的实现包括：创建信号，订阅信号，发送信号
 
-def foo
-  puts 'foo'
-end
+RAC与MVVM配合能够减少代码，降低耦合性，以登录界面为例，按钮的状态通过RAC的观察者模式监听，能够放在VM中，数据的请求与处理可以放在VM中，这些业务逻辑都可以放在VM中。
 
-1
-2
-3def foo
-  puts 'foo'
-end
+而单纯的MVVM按钮的状态改变需要通过textfield代理监听传给VM处理，然后事件再回调判断，写法上比RAC复杂，而且数据请求中需要给控制器接口，RAC只需要控制器引用VM的raccommand信号类，RAC的raccommand本身拥有回调方法。
 
-
-#include &amp;lt;iostream&amp;gt;
-
-using namespace std;
-
-void foo(int arg1, int arg2)
-{
-
-}
-
-int main()
-{
-  string str;
-  foo(1, 2);
-  cout &amp;lt;&amp;lt; &quot;Hello World&quot; &amp;lt;&amp;lt; endl;
-  return 0;
-}
-
-
+RAC很棒，但是RAC如果写的有问题，BUG将更加难以调试，所以要掌握很多的使用方法还需要不断地学习与实践，这里有整理好的一点关于rac的使用，同时加上代码的注释，如果有需要，可以看一下
 </content>
       <categories>
         
-          <category> Test </category>
+          <category> 基础知识点 </category>
         
       </categories>
       <tags>
+        
+          <tag> MVC&amp;MVVM </tag>
         
       </tags>
       <tags></tags>
     </entry>
   
     <entry>
-      <title>Emoji Test></title>
-      <url>/2015/09/19/emoji-test/</url>
-      <content type="text">This is an emoji test. :smile: lol.
+      <title>Instruments的使用></title>
+      <url>/%E8%B0%83%E8%AF%95%E7%9B%B8%E5%85%B3/2016/04/24/Instruments%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      <content type="text">Instruments的介绍
 
-See emoji cheat sheet for more detail :wink: : https://www.webpagefx.com/tools/emoji-cheat-sheet/.
 
-:bowtie::smile::laughing::blush::smiley::relaxed::smirk:
-:heart_eyes::kissing_heart::kissing_closed_eyes::flushed::relieved::satisfied::grin:
+  Instruments是一个强大而灵活的性能分析和测试工具，它是Xcode开发工具集的一部分，它被设计用于帮助分析OS X和iOS的应用、进程与设备，以便更好的理解和优化它们的行为和表现。结合Instruments从你的app开发工作刚刚开始，可以节省你的时间，帮助你在开发周期的早期发现问题。
+
+
+
+  在Instruments中，可以使用指定的工具，跟踪应用app、进程、设备不同方面的行为，Instruments将数据收集在配置文件中，并将详细分析的结果显示出来
+
+
+Instruments配置
+
+Instruments在默认的情况下是在Release模式下编译构建的，这样可能会表现出与DeBug模式完全不同的性能，如果想在DeBug模式下分析可以在Xcode-Product-Scheme-EditScheme中修改Build Configguration为DeBug，同时我们也可以修改instrument的默认启动
+
+
+
+Leaks
+
+点击Xcode-Product下的Profile，instruments将会启动，界面如下
+
+
+
+这里我们打开leak内存泄漏的工具，点击红色按钮开始查找，同时我们对程序进行操作
+
+
+
+绿色代表没有内存泄漏，红色叉号代表出现了可能有内存泄漏的情况，点击暂停按钮，
+点击红色叉号，同时切换到Leaks，选择Cycles&amp;amp;Roots查看是否由循环引用
+
+
+
+通过关系图我们可以看到是否发生了循环引用，然后点击Call Tree调用栈，点击底部的Call Tree勾选invert Call (反转调用关系树)Tree与Hide System Libraies(忽略系统调用),可以看到有两个方法中可能存在内存泄漏，双击其中的方法
+
+
+
+分别跳到以下两个地方
+
+
+
+
+
+通过查看，发现第一个方法并没什么问题，而第二个方法存在循环引用，导致内存泄漏，修改其代码即可
+需要注意的是Leaks会有一些错误的测试结果，比如它经常会程序启动时显示一两个微小的泄露，即使你的代码没有内存泄露问题，所以不要抱有太高的希望，认真核对。
+
+Time Profiler
+
+耗时很长的操作通常是因为它需要大量CPU资源，或者是它被阻塞，在主线程中，阻塞操作是很严重的问题，因为UI不能更新，要找出阻塞操作，可以使用Time Profiler，点击i号按钮显示选项，然后选择Record Wating Theads，在Sample Perspective中选择All Sample Counts。这样就能很方便的看出每个线程中（尤其是主线程）哪种操作最耗时。
+
+Core Animation
+
+Core Animation工具显示了程序每秒的帧率，能够帮助调试绘图的问题。
+
+
+
+熟练的使用Instruments能够帮助我们更好的分析应用，对程序的优化有很大帮助，是一款难得的利器。
 </content>
       <categories>
         
+          <category> 调试相关 </category>
+        
       </categories>
       <tags>
+        
+          <tag> instruments </tag>
         
       </tags>
       <tags></tags>
     </entry>
   
     <entry>
-      <title>Gallery Post></title>
-      <url>/photo/2014/11/18/gallery-post/</url>
-      <content type="text">Nunc dignissim volutpat enim, non sollicitudin purus dignissim id. Nam sit amet urna eu velit lacinia eleifend. Proin auctor rhoncus ligula nec aliquet. Donec sodales molestie lacinia. Curabitur dictum faucibus urna at convallis. Aliquam in lectus at urna rutrum porta. In lacus arcu, molestie ut vestibulum ut, rhoncus sed eros. Sed et elit vitae risus pretium consectetur vel in mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus turpis quis lectus rhoncus adipiscing. Proin pulvinar placerat suscipit. Maecenas imperdiet, quam vitae varius auctor, enim mauris vulputate sapien, nec laoreet neque diam non quam.
+      <title>iOS登录token与请求安全设计></title>
+      <url>/%E5%8A%A0%E5%AF%86%E5%AE%89%E5%85%A8/2016/04/24/2016-04-24-iOS%E7%99%BB%E5%BD%95token%E4%B8%8E%E8%AF%B7%E6%B1%82%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1/</url>
+      <content type="text">在介绍之前，我们应该首先了解一下密码学的知识，可以点击这里查看
+
+在开发过程中我们会面临密码，重要信息传输，以及如何判断当前用户是否重复登录的问题。在这里首先我们说一下判断当前用户是否重复登录的问题
+如果是即时通信类应用，一般都会以长连接的方式接受发送数据，因为长连接的存在，可以通过“心跳包”来检测用户是否在线以及是否重复登录，而一般的应用都不会维持长连接，而是采用另一种方式，token判断的方式
+
+token是什么?
+token 相当于登录令牌， 用来判断当前用户的登录状态，它是一个字符串/大整数,只需要保证唯一性.是服务器根据用户的信息来生成的用于标识用户身份的值
+怎么实现?
+当用户首次登录成功之后, 服务器端就会生成一个 token 值，这个token值会保存在服务器的数据库中，同时把这个值返回给客户端
+
+当客户端拿到值之后需要将其进行持久化存储，保存在沙盒中，同时把它当做公共参数传递，之后客户端再次发送网络请求(一般不是登录请求)的时候,就会将这个 token 值附带到参数中发送给服务器
+
+服务器接收到客户端的请求之后,会取出token值与保存在本地(数据库)中的token值做对比
+
+如果两个 token 值相同 :说明用户登录成功过，当前用户处于登录状态
+如果没有这个 token 值, 没有登录成功
+如果 token 值不同，说明原来的登录信息已经失效，让用户重新登录
+
+对于允许多态设备同时登陆的需求，我们同样可以设置多个token值，根据登录的数量 可以判断最大支持多少个设备同时登录
+需要注意的是，在设置token时，我们可以设置它的时效性，如果 app 是新闻类/游戏类/聊天类等需要长时间用户粘性的. 一般可以设置1年的有效时间，如果 app 是 支付类/银行类的. 一般token只得有效时间比较短: 15分钟左右即可
+
+请求安全的设计
+
+如果使用https的方式，安全性还是有足够的保障（对于https的原理，这篇文章写得很棒）,如果使用http对于一些重要数据信息则需要更多的保护。对于请求的安全，看到过一些文章总感觉有很大的问题
+以登录传输密码为例，看到过有MD5加密（不论加盐还是时间戳）的方式传输，如果是这样，那密码岂不是传到服务器端后无法解密，还原不出密码了？还有的方式是，第一登录发起请求，服务器返回公钥给客户端，如果在此过程服务器返回的数据被劫持，劫持者把自己的公钥发送给了客户端，客户端此时再把账户与密码发给服务器，劫持者这个时候不是可以轻松地获取到客户端的账户与密码?
+
+服务器与客户端进行通信，只要保证通信是安全的就可以，因为开发过程必然要与后台人员交流，基于此，这里我们可以使用AES对称加密的方式，传输账户与密码。
+
+实现起来非常的简单，首先我们与后台人员协商合适的密钥与加密的配置，然后传输的时候使用密钥将账户与密码加密传输，服务器通过约定的密钥解密即可
+
+虽然简单却有以下好处：
+
+  安全性高，密钥的设置位数足够大的情况下，想要破解密钥几乎不可能
+  请求没有繁琐的步骤
+  操作简单
+  可以蒋明文账户与密码传给服务器
 
 
+而在服务保存密码的过程中可以使用Base64的方式存储，同样服务器可以返回一个sessionID用来充当userID
+这样的方式在支付过程中同样可以以此来加密金额，防止恶意修改
 
-
-
-Etiam luctus mauris at mi sollicitudin quis malesuada nibh porttitor. Vestibulum non dapibus magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin feugiat hendrerit viverra. Phasellus sit amet nunc mauris, eu ultricies tellus. Sed a mi tortor, eleifend varius erat. Proin consectetur molestie tortor eu gravida. Cras placerat orci id arcu tristique ut rutrum justo pulvinar. Maecenas lacinia fringilla diam non bibendum. Aenean vel viverra turpis. Integer ut leo nisi. Pellentesque vehicula quam ut sapien convallis consequat. Aliquam ut arcu purus, eget tempor purus. Integer eu tellus quis erat tristique gravida eu vel lorem.
-</content>
-      <categories>
-        
-          <category> Photo </category>
-        
-      </categories>
-      <tags>
-        
-          <tag> consectetur </tag>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>MathJax with Jekyll></title>
-      <url>/opinion/2014/02/16/Mathjax-with-jekyll/</url>
-      <content type="text">One of the rewards of switching my website to Jekyll is the
-ability to support MathJax, which means I can write LaTeX-like equations that get
-nicely displayed in a web browser, like this one \( \sqrt{\frac{n!}{k!(n-k)!}} \) or
-this one \( x^2 + y^2 = r^2 \).
-
-
-
-
-
-What’s MathJax?
-
-If you check MathJax website (www.mathjax.org) you’ll see
-that it is an open source JavaScript display engine for mathematics that works in all
-browsers.
-
-How to implement MathJax with Jekyll
-
-I followed the instructions described by Dason Kurkiewicz for
-using Jekyll and Mathjax.
-
-Here are some important details. I had to modify the Ruby library for Markdown in
-my _config.yml file. Now I’m using redcarpet so the corresponding line in the
-configuration file is: markdown: redcarpet
-
-To load the MathJax javascript, I added the following lines in my layout page.html
-(located in my folder _layouts)
-
-&amp;lt;script type=&quot;text/javascript&quot;
-    src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&amp;gt;
-&amp;lt;/script&amp;gt;
-
-Of course you can choose a different file location in your jekyll layouts.
-
-A Couple of Examples
-
-Here’s a short list of examples. To know more about the details behind MathJax, you can
-always checked the provided documentation available at
-http://docs.mathjax.org/en/latest/
-
-I’m assuming you are familiar with LaTeX. However, you should know that MathJax does not
-have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the
-LaTeX math delimiters, which are \\(...\\) for in-line math, and \\[...\\] for
-displayed equations. It also defines the TeX delimiters $$...$$ for displayed
-equations, but it does not define $...$ as in-line math delimiters. Fortunately,
-you can change these predefined specifications if you want to do so.
-
-Let’s try a first example. Here’s a dummy equation:
-
-
-
-How do you write such expression? Very simple: using double dollar signs
-
-$$a^2 + b^2 = c^2$$
-
-To display inline math use \\( ... \\) like this \\( sin(x^2) \\) which gets
-rendered as \( sin(x^2) \)
-
-Here’s another example using type \mathsf
-
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-which gets displayed as
-
-
-
-Or even better:
-
-\\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \\]
-
-is displayed as
-
-\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \]
-
-If you want to use subscripts like this \( \mathbf{X}_{n,p} \) you need to scape the
-underscores with a backslash like so \mathbf{X}\_{n,p}:
-
-$$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
-
-will be displayed as
-
-\[ \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p} \]
-</content>
-      <categories>
-        
-          <category> opinion </category>
-        
-      </categories>
-      <tags>
-        
-          <tag> resources </tag>
-        
-          <tag> jekyll </tag>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Images></title>
-      <url>/2013/12/26/images/</url>
-      <content type="text">This is a image test post.
-
-
-
-
-
-
-
+以上只是个人见解，如果问题或者不对的地方希望能够提出指正~
 
 </content>
       <categories>
         
-      </categories>
-      <tags>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Excerpts></title>
-      <url>/2013/12/25/excerpts/</url>
-      <content type="text">The following contents should be invisible in home/archive page.
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.
-
-Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.
-</content>
-      <categories>
+          <category> 加密安全 </category>
         
       </categories>
       <tags>
         
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Block></title>
-      <url>/foo/2013/12/25/block/</url>
-      <content type="text">This post is used for testing tag plugins. See docs for more info.
-
-Block Quote
-
-Normal blockquote
-
-
-  Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.
-
-
-Code Block
-
-Inline code block
-
-This is a inline code block: python, print 'helloworld'.
-
-Normal code block
-
-alert('Hello World!');
-
-
-
-print &quot;Hello world&quot;
-
-
-
-Highlight code block
-
-print &quot;Hello world&quot;
-
-
-
-def foo
-  puts 'foo'
-end
-
-1
-2
-3def foo
-  puts 'foo'
-end
-
-
-Gist
-
-
-
-</content>
-      <categories>
-        
-          <category> Foo </category>
-        
-      </categories>
-      <tags>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>日本語テスト></title>
-      <url>/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</url>
-      <content type="text">This is a Japanese test post.
-
-私は昨日ついにその助力家というのの上よりするたなけれ。
-
-最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
-
-がたを知っないはずも同時に九月をいよいよたありた。
-
-もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。
-
-
-  それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。
-
-
-この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。
-
-From すぐ使えるダミーテキスト - 日本語 Lorem ipsum
-</content>
-      <categories>
-        
-      </categories>
-      <tags>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>中文測試></title>
-      <url>/test/test/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</url>
-      <content type="text">This is a Chinese test post.
-
-善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。
-
-以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？
-
-就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。
-
-國新故。
-
-
-  工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？
-
-
-From 亂數假文產生器 - Chinese Lorem Ipsum
-</content>
-      <categories>
-        
-          <category> test/test </category>
-        
-      </categories>
-      <tags>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.></title>
-      <url>/foo/2013/12/24/long-title/</url>
-      <content type="text">This post has a long title. Make sure the title displayed right.
-</content>
-      <categories>
-        
-          <category> Foo </category>
-        
-      </categories>
-      <tags>
-        
-          <tag> Foo </tag>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Categories></title>
-      <url>/foo/bar/baz/2013/12/24/categories/</url>
-      <content type="text">This post contains 3 categories. Make sure your theme can display all of the categories.
-</content>
-      <categories>
-        
-          <category> Foo </category>
-        
-          <category> Bar </category>
-        
-          <category> Baz </category>
-        
-      </categories>
-      <tags>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Link Post></title>
-      <url>/foo/2013/12/24/link-post/</url>
-      <content type="text">This is a link post. Clicking on the link should open Google in a new tab or window.
-</content>
-      <categories>
-        
-          <category> Foo </category>
-        
-      </categories>
-      <tags>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Tags></title>
-      <url>/foo/2013/12/24/tags/</url>
-      <content type="text">This post contains 3 tags. Make sure your theme can display all of the tags.
-</content>
-      <categories>
-        
-          <category> Foo </category>
-        
-      </categories>
-      <tags>
-        
-          <tag> Foo </tag>
-        
-          <tag> Bar </tag>
-        
-          <tag> Baz </tag>
-        
-      </tags>
-      <tags></tags>
-    </entry>
-  
-    <entry>
-      <title>Elements></title>
-      <url>/foo/2013/12/24/elements/</url>
-      <content type="text">The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don’t forget to redefine the style by yourself.
-
-
-
-Heading 1
-
-Heading 2
-
-Heading 3
-
-Heading 4
-
-Heading 5
-
-Heading 6
-
-
-
-Paragraph
-
-Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed erat diam, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.
-
-
-  Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.
-
-
-Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.
-
-List Types
-
-Definition List (dl)
-
-Definition List TitleThis is a definition list division.
-
-Ordered List (ol)
-
-
-  List Item 1
-  List Item 2
-  List Item 3
-
-
-Unordered List (ul)
-
-
-  List Item 1
-  List Item 2
-  List Item 3
-
-
-Table
-
-
-  
-    
-      Table Header 1
-      Table Header 2
-      Table Header 3
-    
-  
-  
-    
-      Division 1
-      Division 2
-      Division 3
-    
-    
-      Division 1
-      Division 2
-      Division 3
-    
-    
-      Division 1
-      Division 2
-      Division 3
-    
-  
-
-
-Misc Stuff - abbr, acronym, sub, sup, etc.
-
-Lorem superscript dolor subscript amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. cite. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. NBA Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  AVE
-</content>
-      <categories>
-        
-          <category> Foo </category>
-        
-      </categories>
-      <tags>
+          <tag> token </tag>
         
       </tags>
       <tags></tags>
